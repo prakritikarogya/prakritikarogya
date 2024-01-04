@@ -30,6 +30,7 @@ const Main = () => {
           id={`carousel-item-${index}`}
           className="duration-700 ease-in-out"
           data-carousel-item="active"
+          key={index}
         >
           <img
             src={val.imageUrl}
