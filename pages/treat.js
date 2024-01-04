@@ -6,7 +6,7 @@ import Header from './component/Header'
 const treat = () => {
     return (
         <div>
-            <Header />
+            {/* <Header /> */}
             <div className='md:mx-10 mx-2 my-5'>
                 <BreadcrumbComponent text={"What we treat"} />
                 <Title text={"What we treat"} />

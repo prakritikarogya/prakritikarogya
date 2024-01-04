@@ -6,7 +6,7 @@ import Header from './component/Header'
 const Gallery = () => {
     return (
         <div>
-            <Header />
+            {/* <Header /> */}
             <div className='md:mx-10 mx-2 my-5'>
                 <BreadcrumbComponent text={"Gallery"} />
                 <Title text={"Our Gallery"} />

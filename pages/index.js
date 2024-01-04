@@ -11,13 +11,9 @@ export default function Home() {
       <Head>
         <title>prakritikarogyaashram</title>
       </Head>
-      <div className="container mx-auto bg-gray-300">
-        <Header />
-        <Main />
-        <About />
-        <Service />
-        <Footer />
-      </div>
+      <Main />
+      <About />
+      <Service />
     </>
   );
 }
