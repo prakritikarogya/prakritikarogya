@@ -29,7 +29,7 @@ const Main = () => {
           <div
           id={`carousel-item-${index}`}
           className="duration-700 ease-in"
-          data-carousel-item="active"
+          data-carousel-item={index==0?"active":''}
           key={index}
         >
           <img
