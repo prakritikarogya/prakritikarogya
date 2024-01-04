@@ -28,7 +28,7 @@ const Main = () => {
         {sliderData.map((val,index)=>(
           <div
           id={`carousel-item-${index}`}
-          className="duration-700 ease-in-out"
+          className="duration-700 ease-in"
           data-carousel-item="active"
           key={index}
         >
