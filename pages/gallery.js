@@ -22,7 +22,7 @@ const Gallery = () => {
                             <img className="h-80 max-w-full rounded-lg" src="https://www.ananddham.in/images/facilities/facilities02.webp" alt="" />
                         </div>
                     </div>
-                    <div className="grid gap-4">
+                    <div className="grid gap-4 sm:mb-0 mb-5 sm:mt-0 mt-5">
                         <div>
                             <img className="h-80 max-w-full rounded-lg" src="https://navjivannaturecure.com/wp-content/uploads/2020/02/gallery-1-815x458.jpg" alt="" />
                         </div>
@@ -33,9 +33,9 @@ const Gallery = () => {
                             <img className="h-80 max-w-full rounded-lg" src="https://www.ananddham.in/images/facilities/facilities26.webp" alt="" />
                         </div>
                     </div>
-                    <div className="grid gap-4">
+                    <div className="grid gap-4 sm:mb-0 mb-5 sm:mt-0 mt-5">
                         <div>
-                            <img className="h-80 max-w-full rounded-lg" src="https://yogvansham.com/uploads/gallery/Large/165457361793466848629eca31af918.jpg" alt="" />
+                            <img className="h-80 max-w-full rounded-lg" src="https://navjivannaturecure.com/wp-content/uploads/2020/02/gallery-23-815x458.jpg" alt="" />
                         </div>
                         <div>
                             <img className="h-80 max-w-full rounded-lg" src="https://yogvansham.com/uploads/gallery/Large/165474437334913127162a16535128df.jpg" alt="" />
@@ -44,7 +44,7 @@ const Gallery = () => {
                             <img className="h-80 max-w-full rounded-lg" src="https://yogvansham.com/uploads/gallery/Large/1654744324161177485362a165047ff5a.jpg" alt="" />
                         </div>
                     </div>
-                    <div className="grid gap-4">
+                    <div className="grid gap-4 sm:mb-0 mb-5 sm:mt-0 mt-5">
                         <div>
                             <img className="h-80 max-w-full rounded-lg" src="https://navjivannaturecure.com/wp-content/uploads/2020/02/gallery-23-1024x724.jpg" alt="" />
                         </div>

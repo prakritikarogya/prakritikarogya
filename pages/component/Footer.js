@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="md:w-1/4 flex-shrink-0  md:mx-10  mx-auto  md:text-left">
           <Link
             href={"/"}
-            className="flex title-font font-medium   text-gray-900 mb-4"
+            className="flex title-font font-medium text-gray-900 mb-4"
           >
             <Image src={'https://png.pngtree.com/png-vector/20191130/ourmid/pngtree-doctor-icon-circle-png-image_2055257.jpg'} width={70} height={70} alt={"logo"} className="rounded-full md:ml-2 ml-4 mr-4" />
             <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Prakritik Arogya Ashram</span>
@@ -25,16 +25,17 @@ const Footer = () => {
             </h2>
             <nav className="list-none mb-8">
               <li>
-                <Link href={'/#about'} className="text-gray-600 hover:text-gray-800">About</Link>
+                <Link href={'/treat'} className="text-gray-600 hover:text-gray-800">WHAT WE TREAT</Link>
+
               </li>
               <li>
-                <Link href={'/#occasion'} className="text-gray-600 hover:text-gray-800">Occasions</Link>
+                <Link href={'/about'} className="text-gray-600 hover:text-gray-800">About</Link>
               </li>
               <li>
-                <Link href={'/#services'} className="text-gray-600 hover:text-gray-800">Service</Link>
+                <Link href={'/services'} className="text-gray-600 hover:text-gray-800">Service</Link>
               </li>
               <li>
-                <Link href={'/#gallery'} className="text-gray-600 hover:text-gray-800">Gallery</Link>
+                <Link href={'/gallery'} className="text-gray-600 hover:text-gray-800">Gallery</Link>
               </li>
             </nav>
           </div>
@@ -43,9 +44,9 @@ const Footer = () => {
               React Us
             </h2>
             <p className="mt-2 text-sm text-gray-500">
-              # H-303, block-H, Suncity Avenue-102,
-              <br />  Sector -102, Gurgaon,
-              <br /> Haryana-(122001)
+              # Rajgir,
+              <br />  District Nalanda,
+              <br /> Bihar-(803116)
             </p>
           </div>
           <div className="lg:w-1/2 md:w-1/2 w-full px-4 h-full">
