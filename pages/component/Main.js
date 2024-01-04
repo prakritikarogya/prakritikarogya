@@ -25,23 +25,23 @@ const Main = () => {
       data-carousel="slide"
     >
       <div className="relative  overflow-hidden rounded-lg carusal-data">
-        {sliderData.map((val,index)=>(
+        {sliderData.map((val, index) => (
           <div
-          id={`carousel-item-${index}`}
-          className="duration-700 ease-in-out"
-          data-carousel-item={index==0?"active":true}
-          key={index}
-        >
-          <img
-            src={val.imageUrl}
-            className="block object-cover object-center w-full h-full rounded-lg relative"
-            alt="main"
-            width={100}
-            height={100}
-          />
-          <h1 className="sm:text-5xl text-green-700 absolute top-1/3 sm:left-64 font-extrabold pb-5">{val.title}</h1>
-          <p className="w-5/12 text-xl absolute top-72 sm:left-64 font-extrabold border-b-2 border-t-2 border-black">{val.desc}</p>
-        </div>
+            id={`carousel-item-${index}`}
+            className="duration-700 ease-in-out"
+            data-carousel-item={index == 0 ? "active" : data - carousel - item}
+            key={index}
+          >
+            <img
+              src={val.imageUrl}
+              className="block object-cover object-center w-full h-full rounded-lg relative"
+              alt="main"
+              width={100}
+              height={100}
+            />
+            <h1 className="sm:text-5xl text-green-700 absolute top-1/3 sm:left-64 font-extrabold pb-5">{val.title}</h1>
+            <p className="w-5/12 text-xl absolute top-72 sm:left-64 font-extrabold border-b-2 border-t-2 border-black">{val.desc}</p>
+          </div>
         ))}
       </div>
       <button
