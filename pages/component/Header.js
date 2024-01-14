@@ -119,7 +119,7 @@ const Header = () => {
 
           </div>
         </div>
-        <button className="bg-green-500 text-white p-2 hidden sm:block w-40 font-bold" onClick={openModal}>
+        <button className="bg-green-500 text-white p-2  w-40 font-bold" onClick={openModal}>
           Donate Me
         </button>
         <Modal isOpen={isModalOpen} onClose={closeModal}>
