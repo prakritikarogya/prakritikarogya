@@ -1,10 +1,25 @@
-import React from "react";
+import React, { useState } from "react";
 import Image from "next/image";
 import { BiMobile } from "react-icons/bi";
 import { AiOutlineMail } from "react-icons/ai";
 import { BsWhatsapp } from "react-icons/bs"
 import Link from "next/link";
+import Modal from "./Modal";
+import ImageWithDefault from "./ImageWithDefault";
 const Header = () => {
+  const [isvisiable, setVisible] = useState(false)
+  const handleMe = () => {
+    setVisible(!isvisiable);
+  }
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const openModal = () => {
+    setIsModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setIsModalOpen(false);
+  };
   return (
     <div className="container mx-auto sticky top-0 z-[100] bg-white">
       <div className="md:ml-auto md:flex md:justify-end  md:px-6 bg-green-600 shadow-md md:py-4 py-2">
@@ -22,7 +37,7 @@ const Header = () => {
           <AiOutlineMail className="mx-2 my-1" /> : prakritikarogyaashram@gmail.com
         </div>
       </div>
-      <nav className="bg-white border-gray-200 px-2 sm:px-4 py-1 md:shadow-lg shadow-sm rounded dark:bg-gray-900">
+      <nav className="bg-white border-gray-200 px-2 sm:px-4 py-1 md:shadow-lg shadow-sm rounded dark:bg-gray-900 flex items-center">
         <div className="container flex flex-wrap items-center md:justify-start justify-between mx-auto md:ml-2">
           <Link href="/" className="flex items-center">
             <img src={'https://png.pngtree.com/png-vector/20191130/ourmid/pngtree-doctor-icon-circle-png-image_2055257.jpg'} width={70} height={70} alt={"logo"} className="rounded-full ml-2" />
@@ -101,8 +116,16 @@ const Header = () => {
                 </Link>
               </li>
             </ul>
+
           </div>
         </div>
+        <button className="bg-green-500 text-white p-2 hidden sm:block w-40 font-bold" onClick={openModal}>
+          Donate Me
+        </button>
+        <Modal isOpen={isModalOpen} onClose={closeModal}>
+          {/* <h1 className="text-2xl font-bold mb-4">Modal Content</h1> */}
+          <ImageWithDefault url="/QR.jpg" width={400} height={300} nameclass="w-60" />
+        </Modal>
       </nav>
     </div>
   );
