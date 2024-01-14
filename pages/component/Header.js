@@ -71,7 +71,7 @@ const Header = () => {
               ></path>
             </svg>
           </button>
-          <div className="hidden w-full md:block md:w-auto" id="navbar-default">
+          <div className="hidden w-full md:block md:w-auto sm:h-auto h-80" id="navbar-default">
             <ul className="flex flex-col p-1 pl-4 mt-2 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-14 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700 md:pl-10">
               <li>
                 <Link
@@ -123,7 +123,7 @@ const Header = () => {
               </li>
               <li className="">
                 <button
-                  className="absolute sm:right-0 sm:mr-0 mr-10 bg-green-500 text-white p-2  w-40 rounded-sm"
+                  className="absolute sm:right-0 sm:mr-4 mr-10 bg-green-500 bottom-3 sm:bottom-auto text-white p-2  w-40 rounded-sm"
                   onClick={openModal}
                 >
                   Donate Me
