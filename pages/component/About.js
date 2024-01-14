@@ -6,24 +6,21 @@ const About = () => {
       id: 'mission',
       title: 'Our Mission',
       content: [
-        'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia...',
-        'Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.',
+        'Empowering communities through holistic healthcare, Pratkritik Arogya Ashram is dedicated to fostering well-being, providing compassionate care, and promoting a healthier, harmonious life',
       ],
     },
     {
       id: 'vision',
       title: 'Our Vision',
       content: [
-        'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.',
-        'Separated they live in Bookmarksgrove right',
-        'Separated they live in Bookmarksgrove left',
+        'Guided by a vision of a vibrant and resilient society, Pratkritik Arogya Ashram envisions a future where every individual thrives in optimal health, embracing a balanced and fulfilling life',
       ],
     },
     {
       id: 'chooseUs',
       title: 'Why Choose Us',
       content: [
-        'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore asperiores cupiditate harum odit dolor nemo ipsa mollitia debitis, unde corrupti iusto nulla, voluptates beatae quibusdam rerum. Quas odit temporibus facere.',
+        'Choose Pratkritik Arogya Ashram for unparalleled healthcare excellence. We prioritize your well-being through personalized care, cutting-edge treatments, and a commitment to your holistic health journey',
       ],
     },
   ];
@@ -38,9 +35,8 @@ const About = () => {
     <div className='sm:flex mt-16  md:mx-10 mx-2 my-5'>
       <div className='sm:w-8/12'>
         <h1 className='font-bold my-5 text-2xl'>About Healthcare</h1>
-        <p className='my-2'>
-          Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day
-          however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.
+        <p className='my-2 text-justify'>
+        At Pratkritik Arogya Ashram, we are dedicated to compassionate healthcare. Our expert team integrates Naturopathy, Ayurveda, Yoga, and more for personalized well-being. With a commitment to holistic solutions, we empower individuals on their health journey, fostering vitality and resilience. Join us in shaping a transformative healthcare experience for a healthier future.
         </p>
         <div className='mt-5'>
           {accordionItems.map((item) => (

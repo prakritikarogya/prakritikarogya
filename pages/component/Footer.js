@@ -14,8 +14,8 @@ const Footer = () => {
             <Image src={'https://png.pngtree.com/png-vector/20191130/ourmid/pngtree-doctor-icon-circle-png-image_2055257.jpg'} width={70} height={70} alt={"logo"} className="rounded-full md:ml-2 ml-4 mr-4" />
             <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Prakritik Arogya Ashram</span>
           </Link>
-          <p className="mt-2 text-sm text-gray-500 px-2">
-            We provide a wide range of decoration services to make any event full of joy, happiness and memorable.
+          <p className="mt-2 text-sm text-gray-500 px-2 text-justify">
+            Choose Pratkritik Arogya Ashram for unparalleled healthcare excellence. We prioritize your well-being through personalized care, cutting-edge treatments, and a commitment to your holistic health journey.
           </p>
         </div>
         <div className="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center md:mx-10">

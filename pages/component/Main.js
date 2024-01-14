@@ -13,7 +13,7 @@ const Main = () => {
       desc: ""
     },
     {
-      imageUrl: "https://preview.colorlib.com/theme/healthcare/images/img_bg_1.jpg",
+      imageUrl: "https://iimtu.edu.in/blog/wp-content/uploads/2023/04/Panchamahabhoot.png",
       title: "FULL BODY DETOXIFICATION",
       desc: ""
     },
