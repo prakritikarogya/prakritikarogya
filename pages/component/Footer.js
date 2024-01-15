@@ -1,6 +1,9 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
+import { IoMailOutline } from "react-icons/io5";
+import { LuMapPin } from "react-icons/lu";
+import { TbPhoneOutgoing } from "react-icons/tb";
 const Footer = () => {
   const year = new Date().getFullYear();
   return (
@@ -49,9 +52,14 @@ const Footer = () => {
             <h2 className="title-font font-medium text-gray-900 tracking-widest text-lg mb-3">
               React Us
             </h2>
-            <p className="mt-2 text-sm text-gray-500">
-              # Rajgir,
-              <br />  District Nalanda,
+            <p className="flex items-center gap-2">
+            <IoMailOutline /> : prakritikarogya@123
+            </p>
+            <p className="flex items-center gap-2">
+            <TbPhoneOutgoing /> +91: 8969134518
+            </p>
+            <p className="mt-2 text-sm text-gray-500 flex items-start">
+            <LuMapPin className="mt-1" /> : Rajgir, Nalanda
               <br /> Bihar-(803116)
             </p>
           </div>

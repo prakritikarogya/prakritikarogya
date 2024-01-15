@@ -4,17 +4,17 @@ const Main = () => {
   let sliderData = [
     {
       imageUrl: "https://preview.colorlib.com/theme/healthcare/images/img_bg_6.jpg.webp",
-      title: "FULL BODY DETOXIFICATION",
-      desc: "NATUROPATHY HOSPITAL & PANCHKARMA CENTER, CHOMU"
+      title: "Welcome to Prakritk Arogya Aashram",
+      desc: "Rajgir, Nalanda Bihar-(803116)"
     },
     {
       imageUrl: "https://preview.colorlib.com/theme/healthcare/images/img_bg_5.jpg",
-      title: "FULL BODY DETOXIFICATION",
+      title: "",
       desc: ""
     },
     {
       imageUrl: "https://iimtu.edu.in/blog/wp-content/uploads/2023/04/Panchamahabhoot.png",
-      title: "FULL BODY DETOXIFICATION",
+      title: "",
       desc: ""
     },
   ]
@@ -39,8 +39,8 @@ const Main = () => {
               width={100}
               height={100}
             />
-            <h1 className="sm:text-5xl text-green-700 absolute top-1/3 sm:left-64 font-extrabold pb-5">{val.title}</h1>
-            <p className="w-5/12 text-xl absolute top-72 sm:left-64 font-extrabold border-b-2 border-t-2 border-black">{val.desc}</p>
+            <h1 className="sm:text-5xl text-lg  text-green-700 absolute sm:top-1/3 sm:left-64 left-5 top-28 font-extrabold pb-5">{val?.title}</h1>
+            <p className="w-3/12 text-xl text-center absolute top-72 sm:left-64 font-extrabold border-b-2 border-t-2 border-black">{val.desc}</p>
           </div>
         ))}
       </div>

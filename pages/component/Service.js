@@ -238,7 +238,7 @@ const Service = () => {
                     Hip Bath (Hot)
                   </th>
                   <td className="px-6 py-4">
-                    50/- Per Day
+                    150/- Per Day
                   </td>
                 </tr>
                 <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
@@ -254,7 +254,7 @@ const Service = () => {
                     Neutral Hip Bath
                   </th>
                   <td className="px-6 py-4">
-                    50/- Per Day
+                    30/- Per Day
                   </td>
                 </tr>
                 <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
@@ -262,7 +262,7 @@ const Service = () => {
                     Sitz Bath (Hot)
                   </th>
                   <td className="px-6 py-4">
-                    300/- Per Day
+                    150/- Per Day
                   </td>
                 </tr>
                 <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
@@ -270,7 +270,7 @@ const Service = () => {
                     Sitz Bath (Cold)
                   </th>
                   <td className="px-6 py-4">
-                    600/- Per Day
+                    100/- Per Day
                   </td>
                 </tr>
                 <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
@@ -278,15 +278,7 @@ const Service = () => {
                     Sitz Bath (Neutral)
                   </th>
                   <td className="px-6 py-4">
-                    600/- Per Day
-                  </td>
-                </tr>
-                <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-                  <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                    Neem Alovera Mud Bath
-                  </th>
-                  <td className="px-6 py-4">
-                    600/- Per Day
+                    30/- Per Day
                   </td>
                 </tr>
                 <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
@@ -294,7 +286,7 @@ const Service = () => {
                     Steam Bath
                   </th>
                   <td className="px-6 py-4">
-                    400/- Per Day
+                    300/- Per Day
                   </td>
                 </tr>
                 <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
@@ -315,18 +307,10 @@ const Service = () => {
                 </tr>
                 <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
                   <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                    Steam Bath (Neem)
-                  </th>
-                  <td className="px-6 py-4">
-                    400/- Per Day
-                  </td>
-                </tr>
-                <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-                  <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                     Local Steam
                   </th>
                   <td className="px-6 py-4">
-                    400/- Per Day
+                    100/- Per Day
                   </td>
                 </tr>
                 <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
@@ -334,7 +318,7 @@ const Service = () => {
                     Foot Bath (Hot)
                   </th>
                   <td className="px-6 py-4">
-                    400/- Per Day
+                    100/- Per Day
                   </td>
                 </tr>
                 <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
@@ -342,7 +326,7 @@ const Service = () => {
                     Foot Bath (Cold)
                   </th>
                   <td className="px-6 py-4">
-                    400/- Per Day
+                    50/- Per Day
                   </td>
                 </tr>
                 <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
@@ -350,13 +334,57 @@ const Service = () => {
                     Foot Bath (Neutral)
                   </th>
                   <td className="px-6 py-4">
-                    400/- Per Day
+                    30/- Per Day
                   </td>
                 </tr>
               </tbody>
             </table>
           </div>
         </div>
+      </div>
+      <div className="mx-auto p-6 mt-4 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+        <a href="#">
+          <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white border-b-2">General Package</h5>
+        </a>
+        <table className="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
+          <tbody>
+            <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+              <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                NaturoPathy Treatment
+              </th>
+              <td className="px-6 py-4">
+                800/- Per Day
+              </td>
+            </tr>
+            <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+              <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                15 Days NaturoPathy Treatment Package
+              </th>
+              <td className="px-6 py-4">
+                11000/- Only
+              </td>
+            </tr>
+            <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+              <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                PanchKarma Treatment
+              </th>
+              <td className="px-6 py-4">
+                1000/- Per Day
+              </td>
+            </tr>
+            <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+              <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                7 Days PanchKarma Treatment Package
+              </th>
+              <td className="px-6 py-4">
+                6100/- Only
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <p className="py-2 mb-3 font-normal text-gray-700 dark:text-gray-400">A special Discount of 20% of treatment is available to helpless , handicapped, and old people</p>
+        <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">An additional discount of 10% will be given if treatment is done for more than 15 days </p>
+        <p className="mb-3 font-black text-gray-700 dark:text-gray-400">Panchkarma treatment charge will be taken separatly</p>
       </div>
     </div>
   )
