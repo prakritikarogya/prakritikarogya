@@ -4,6 +4,7 @@ import Image from "next/image";
 import { IoMailOutline } from "react-icons/io5";
 import { LuMapPin } from "react-icons/lu";
 import { TbPhoneOutgoing } from "react-icons/tb";
+import ImageWithDefault from "./ImageWithDefault";
 const Footer = () => {
   const year = new Date().getFullYear();
   return (
@@ -14,7 +15,7 @@ const Footer = () => {
             href={"/"}
             className="flex title-font font-medium text-gray-900 mb-4"
           >
-            <Image src={'https://png.pngtree.com/png-vector/20191130/ourmid/pngtree-doctor-icon-circle-png-image_2055257.jpg'} width={70} height={70} alt={"logo"} className="rounded-full md:ml-2 ml-4 mr-4" />
+            <ImageWithDefault url={'logo.png'} width={70} height={70} alt={"logo"} nameclass="rounded-full md:ml-2 ml-4 mr-4" />
             <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Prakritik Arogya Ashram</span>
           </Link>
           <p className="mt-2 text-sm text-gray-500 px-2 text-justify">
