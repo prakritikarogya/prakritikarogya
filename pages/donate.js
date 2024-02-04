@@ -71,7 +71,7 @@ const donate = () => {
                         <p>आप भी हमारे साथ जुड़कर समाज सेवा कर सकते है...</p>
                     </ul>
                 </div>
-                <div className='bg-green-400 px-4 py-3 mb-5 flex justify-center'>
+                <div className='bg-green-600 px-4 py-3 mb-5 flex justify-center'>
                    <div>
                    <h2 className='text-white font-bold '>Bank account name : Prakrithik Arogya Ashram</h2>
                     <h2 className='text-white'>Bank account no. : 81129620266</h2>
@@ -79,7 +79,7 @@ const donate = () => {
                    </div>
                 </div>
                 <div className='flex justify-center items-center mb-10'>
-                    <ImageWithDefault url="/QR.jpg" width={500} height={200} nameclass="w-96" className="w-" />
+                    <ImageWithDefault url="/QR.jpg" width={500} height={200} nameclass="w-96 rounded-md" className="w-" />
                 </div>
             </div>
         </div>

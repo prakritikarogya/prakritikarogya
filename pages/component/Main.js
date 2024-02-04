@@ -34,7 +34,7 @@ const Main = () => {
           >
             <img
               src={val.imageUrl}
-              className="bg-cover bg-repeat w-full h-full rounded-lg relative "
+              className="bg-cover bg-no-repeat w-full h-full rounded-lg relative overflow-hidden "
               alt="main"
               width={100}
               height={100}

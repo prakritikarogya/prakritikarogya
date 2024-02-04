@@ -44,6 +44,9 @@ const Footer = () => {
               <li>
                 <Link href={'/contact'} className="text-gray-600 hover:text-gray-800">Contact Us</Link>
               </li>
+              <li>
+                <Link href={'/donate'} className="text-gray-600 hover:text-gray-800">Donate Us</Link>
+              </li>
             </nav>
           </div>
           <div className="lg:w-1/4 md:w-1/2 w-full px-4 flex justify-center flex-col items-center sm:block mb-5 sm:mb-0">
