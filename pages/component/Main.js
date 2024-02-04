@@ -3,17 +3,17 @@ import Image from "next/image";
 const Main = () => {
   let sliderData = [
     {
-      imageUrl: "https://preview.colorlib.com/theme/healthcare/images/img_bg_6.jpg.webp",
-      title: "Welcome to Prakritk Arogya Aashram",
+      imageUrl: "https://moonstonenaturopathic.com/wp-content/uploads/2022/05/Ways-a-Naturopathic-Doctor-Can-Help-You-Achieve-Your-Health-Goals.jpg",
+      title: "Welcome to Prakritk Arogyaaashram",
       desc: "Rajgir, Nalanda Bihar-(803116)"
     },
     {
-      imageUrl: "https://preview.colorlib.com/theme/healthcare/images/img_bg_5.jpg",
+      imageUrl: "https://www.netnewsledger.com/wp-content/uploads/2023/05/herbal-naturopathic-medicine-2021-08-26-15-52-41-utc-696x426.jpg",
       title: "",
       desc: ""
     },
     {
-      imageUrl: "https://iimtu.edu.in/blog/wp-content/uploads/2023/04/Panchamahabhoot.png",
+      imageUrl: "https://www.thestatesman.com/wp-content/uploads/2022/10/istockphoto-526831548-612x612-1-1.jpg",
       title: "",
       desc: ""
     },
@@ -28,19 +28,19 @@ const Main = () => {
         {sliderData.map((val, index) => (
           <div
             id={`carousel-item-${index}`}
-            className="duration-700 ease-in-out"
+            className=" ease-in-out"
             data-carousel-item={index == 0 ? "active" : true}
             key={index}
           >
             <img
               src={val.imageUrl}
-              className="block object-cover object-center w-full h-full rounded-lg relative"
+              className="bg-cover bg-repeat w-full h-full rounded-lg relative "
               alt="main"
               width={100}
               height={100}
             />
-            <h1 className="sm:text-5xl text-lg  text-green-700 absolute sm:top-1/3 sm:left-64 left-5 top-28 font-extrabold pb-5">{val?.title}</h1>
-            <p className="w-3/12 text-xl text-center absolute top-72 sm:left-64 font-extrabold border-b-2 border-t-2 border-black">{val.desc}</p>
+            {val?.title && <h1 className="sm:text-5xl text-lg  text-green-700 sm:block hidden absolute sm:top-1/5 sm:left-1/2 left-5 top-28 font-extrabold pb-5">{val?.title}</h1>}
+            {val.desc && <p className="w-3/12 text-xl text-center absolute sm:block hidden top-64 sm:left-1/2 font-extrabold border-b-2 border-t-2 border-black">{val.desc}</p>}
           </div>
         ))}
       </div>

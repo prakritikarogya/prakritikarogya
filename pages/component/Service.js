@@ -52,15 +52,15 @@ const Service = () => {
       <div>
         <h1 className='font-bold my-10 text-2xl'>Rate List of Treatement</h1>
         <div className='sm:flex gap-5 mb-5'>
-          <a href="#" className="block sm:w-4/12 w-full p-6 bg-green-600 border border-gray-200 rounded-lg shadow-md hover:bg-green-700 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-            <h5 className="mb-2 sm:text-2xl text-lg font-bold tracking-tight text-white dark:text-white">Consultation Fee : 200/- Per Day</h5>
+          <a href="#" className="block sm:w-6/12 w-full p-6 bg-green-600 border border-gray-200 rounded-lg shadow-md hover:bg-green-700 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+            <h5 className="mb-2 sm:text-2xl text-lg font-bold tracking-tight text-white dark:text-white text-center">Consultation Fee : 200/- Per Day</h5>
           </a>
-          <a href="#" className="block sm:w-4/12 w-full p-6 bg-green-600 border border-gray-200 rounded-lg shadow hover:bg-green-700 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-            <h5 className="mb-2 sm:text-2xl text-lg font-bold tracking-tight text-white dark:text-white">Follow Up Fee : 100/- Per Day</h5>
+          <a href="#" className="block sm:w-6/12 w-full p-6 bg-green-600 border border-gray-200 rounded-lg shadow hover:bg-green-700 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+            <h5 className="mb-2 sm:text-2xl text-lg font-bold tracking-tight text-white dark:text-white text-center">Follow Up Fee : 100/- Per Day</h5>
           </a>
-          <a href="#" className="block sm:w-4/12 w-full p-6 bg-green-600 border border-gray-200 rounded-lg shadow hover:bg-green-700 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+          {/* <a href="#" className="block sm:w-4/12 w-full p-6 bg-green-600 border border-gray-200 rounded-lg shadow hover:bg-green-700 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
             <h5 className="mb-2 sm:text-2xl text-lg font-bold tracking-tight text-white dark:text-white">Medical Certificate Fee : 300/- Per Day</h5>
-          </a>
+          </a> */}
         </div>
 
         <div className='sm:flex gap-5'>

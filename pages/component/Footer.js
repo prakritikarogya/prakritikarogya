@@ -16,18 +16,18 @@ const Footer = () => {
             className="flex title-font font-medium text-gray-900 mb-4"
           >
             <ImageWithDefault url={'logo.png'} width={70} height={70} alt={"logo"} nameclass="rounded-full md:ml-2 ml-4 mr-4" />
-            <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Prakritik Arogya Ashram</span>
+            <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Prakritik Arogyaashram</span>
           </Link>
           <p className="mt-2 text-sm text-gray-500 px-2 text-justify">
-            Choose Pratkritik Arogya Ashram for unparalleled healthcare excellence. We prioritize your well-being through personalized care, cutting-edge treatments, and a commitment to your holistic health journey.
+            Choose Pratkritik Arogyaashram for unparalleled healthcare excellence. We prioritize your well-being through personalized care, cutting-edge treatments, and a commitment to your holistic health journey.
           </p>
         </div>
         <div className="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center md:mx-10">
-          <div className="lg:w-1/5 md:w-1/2 w-full px-4">
+          <div className="lg:w-1/5 md:w-1/2 w-full px-4 flex justify-center flex-col items-center sm:block">
             <h2 className="title-font font-medium text-gray-900 tracking-widest text-lg mb-3">
               Quick links
             </h2>
-            <nav className="list-none mb-8">
+            <nav className="list-none mb-8 left-0 flex flex-col justify-start items-start ">
               <li>
                 <Link href={'/treat'} className="text-gray-600 hover:text-gray-800">WHAT WE TREAT</Link>
 
@@ -49,12 +49,13 @@ const Footer = () => {
               </li>
             </nav>
           </div>
-          <div className="lg:w-1/4 md:w-1/2 w-full px-4">
+          <div className="lg:w-1/4 md:w-1/2 w-full px-4 flex justify-center flex-col items-center sm:block mb-5 sm:mb-0">
             <h2 className="title-font font-medium text-gray-900 tracking-widest text-lg mb-3">
-              React Us
+              Reach Us
             </h2>
+            <div className="flex flex-col justify-start items-start ">
             <p className="flex items-center gap-2">
-            <IoMailOutline /> : prakritikarogya@123
+            <IoMailOutline /> :help@prakritikarogya.in
             </p>
             <p className="flex items-center gap-2">
             <TbPhoneOutgoing /> +91: 8969134518
@@ -63,6 +64,7 @@ const Footer = () => {
             <LuMapPin className="mt-1" /> : Rajgir, Nalanda
               <br /> Bihar-(803116)
             </p>
+            </div>
           </div>
           <div className="lg:w-1/2 md:w-1/2 w-full px-4 h-full">
             <h2 className="title-font font-medium text-gray-900 tracking-widest text-lg mb-3 text-center">
@@ -148,7 +150,7 @@ const Footer = () => {
       <div className="bg-gray-100">
         <div className="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
           <p className="text-gray-500 text-sm text-center sm:text-left">
-            © {year} Prakritik Arogya Ashram —
+            © {year} Prakritik Arogyaashram —
             <a
               href="https://twitter.com/knyttneve"
               rel="noopener noreferrer"

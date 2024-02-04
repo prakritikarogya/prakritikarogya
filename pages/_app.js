@@ -4,9 +4,14 @@ import Header from './component/Header';
 import Footer from './component/Footer';
 export default function App({ Component, pageProps }) {
    return (
+      <>
+      {/* <Head>
+         <title></title>
+      </Head> */}
       <div className="container mx-auto bg-gray-300">
          <Header />
          <Component {...pageProps} />
          <Footer />
-      </div>)
+      </div>
+      </>)
 }

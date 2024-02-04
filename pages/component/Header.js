@@ -47,7 +47,7 @@ const Header = () => {
         <div className="container flex flex-wrap items-center md:justify-start justify-between mx-auto md:ml-2">
           <Link href="/" className="flex items-center">
           <ImageWithDefault url={'logo.png'} width={70} height={70} alt={"logo"} nameclass="rounded-full md:ml-2 ml-4 mr-4" />
-            <span className="md:hidden self-center text-xl font-semibold whitespace-nowrap dark:text-white">Prakritik Arogya Ashram</span>
+            <span className="md:hidden self-center text-xl font-semibold whitespace-nowrap dark:text-white text-green-600">Prakritik Arogya Ashram</span>
           </Link>
           <button
             data-collapse-toggle="navbar-default"
@@ -122,21 +122,16 @@ const Header = () => {
                 </Link>
               </li>
               <li className="">
-                <button
-                  className="absolute sm:right-0 sm:mr-4 mr-10 bg-green-500 bottom-3 sm:bottom-auto text-white p-2  w-40 rounded-sm"
-                  onClick={openModal}
+                <a href="/donate"
+                  className=" text-center absolute sm:right-0 sm:mr-4 mr-10 bg-green-500 bottom-3 sm:bottom-auto text-white p-2  w-40 rounded-sm"
                 >
-                  Donate Me
-                </button>
+                  Donate Us
+                </a>
               </li>
             </ul>
           </div>
 
         </div>
-        <Modal isOpen={isModalOpen} onClose={closeModal}>
-          {/* <h1 className="text-2xl font-bold mb-4">Modal Content</h1> */}
-          <ImageWithDefault url="/QR.jpg" width={400} height={300} nameclass="w-60" />
-        </Modal>
       </nav>
     </div>
   );
