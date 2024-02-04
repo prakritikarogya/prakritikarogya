@@ -36,7 +36,7 @@ const doctor = () => {
                                     </h3>
                                     <span className="text-gray-500 dark:text-gray-400">ND</span><br />
                                     <span>
-                                    Dr. Ramparvesh Das is a highly experienced practitioner with over 30 years of expertise in the field of Pratik Chikitsya, specializing in Gastrointestinal Diseases.
+                                    Dr. Ramparvesh Das is a highly experienced practitioner with over 30 years of expertise in the field of Prakritik Chikitsya, specializing in Gastrointestinal Diseases.
                                     </span>
                                 </div>
                             </div>
