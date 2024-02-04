@@ -73,8 +73,8 @@ const donate = () => {
                 </div>
                 <div className='bg-green-400 px-4 py-3 mb-5 flex justify-center'>
                    <div>
-                   <h2 className='text-white font-bold '>Bank account name  : Prakrithik Arogya Ashram</h2>
-                    <h2 className='text-white'>Bank account no.  :  11384967514</h2>
+                   <h2 className='text-white font-bold '>Bank account name : Prakrithik Arogya Ashram</h2>
+                    <h2 className='text-white'>Bank account no. : 81129620266</h2>
                     <h2 className='text-white'>IFSC code : SBIN0003499</h2>
                    </div>
                 </div>

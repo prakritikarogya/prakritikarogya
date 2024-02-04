@@ -47,7 +47,7 @@ const Header = () => {
         <div className="container flex flex-wrap items-center md:justify-start justify-between mx-auto md:ml-2">
           <Link href="/" className="flex items-center">
           <ImageWithDefault url={'logo.png'} width={70} height={70} alt={"logo"} nameclass="rounded-full md:ml-2 ml-4 mr-4" />
-            <span className="md:hidden self-center text-xl font-semibold whitespace-nowrap dark:text-white text-green-600">Prakritik Arogya Ashram</span>
+            <span className="md:hidden self-center text-xl font-semibold whitespace-nowrap dark:text-white text-green-600">Prakritik Arogyaashram</span>
           </Link>
           <button
             data-collapse-toggle="navbar-default"
