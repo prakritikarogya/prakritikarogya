@@ -16,7 +16,7 @@ const Gallery = () => {
                             <img className="h-80 max-w-full rounded-lg" src="/gallery/g1.jpg" alt="" />
                         </div>
                         <div>
-                            <img className="h-80 max-w-full rounded-lg" src="/gallery/g2.jpg" alt="" />
+                            <img className="h-80 sm:max-w-full rounded-lg w-[100vh]" src="/gallery/g2.jpg" alt="" />
                         </div>
                         <div>
                             <img className="h-80 max-w-full rounded-lg" src="/gallery/g3.jpg" alt="" />
@@ -27,7 +27,7 @@ const Gallery = () => {
                             <img className="h-80 max-w-full rounded-lg" src="/gallery/g4.jpg" alt="" />
                         </div>
                         <div>
-                            <img className="h-80 max-w-full rounded-lg" src="/gallery/g5.jpg" alt="" />
+                            <img className="h-80 sm:max-w-full rounded-lg w-[100vh]" src="/gallery/g5.jpg" alt="" />
                         </div>
                         <div>
                             <img className="h-80 max-w-full rounded-lg" src="/gallery/g6.jpg" alt="" />

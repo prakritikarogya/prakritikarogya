@@ -251,59 +251,8 @@ const treat = () => {
                             </svg>
                             <h5 className="mb-2 text-md  text-gray-900 dark:text-white">Arthritis</h5>
                         </a>
-                        <a href="#" className="relative flex justify-center items-center flex-col sm:w-60 w-full p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="61.056" height="68.033" viewBox="0 0 61.056 68.033">
-                                <g id="Group_3325" data-name="Group 3325" transform="translate(-140.198 -1256.885)">
-                                    <g id="Group_3267" data-name="Group 3267" transform="translate(165.356 1257.885)">
-                                        <path id="Path_10611" data-name="Path 10611" d="M2.105,0h0A5.385,5.385,0,0,1,7.474,5.369V8.054a5.385,5.385,0,0,1-5.369,5.368A5.385,5.385,0,0,1-3.264,8.054V5.369A5.385,5.385,0,0,1,2.105,0Z" transform="translate(3.264)" fill="none" stroke="#c87e2b" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="22.926" stroke-width="2" />
-                                    </g>
-                                    <g id="Group_3268" data-name="Group 3268" transform="translate(149.336 1268.257)">
-                                        <path id="Path_10612" data-name="Path 10612" d="M4.486,3.765A13.059,13.059,0,0,0,.013,12.732l-.265,3.884a3.355,3.355,0,0,1-3.576,3.119,3.355,3.355,0,0,1-3.119-3.576l.265-3.884A19.888,19.888,0,0,1,9.375-5.837" transform="translate(6.955 5.837)" fill="none" stroke="#c87e2b" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="22.926" stroke-width="2" />
-                                    </g>
-                                    <g id="Group_3269" data-name="Group 3269" transform="translate(156.04 1290.709)">
-                                        <path id="Path_10613" data-name="Path 10613" d="M0,0A46.854,46.854,0,0,0,2.568,15.443L6.861,28.906c.64,2.007,1.816,4.3,4.685,4.3a2.87,2.87,0,0,0,3.14-2.88V9.872" fill="none" stroke="#c87e2b" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="22.926" stroke-width="2" />
-                                    </g>
-                                    <g id="Group_3270" data-name="Group 3270" transform="translate(175.762 1268.252)">
-                                        <path id="Path_10614" data-name="Path 10614" d="M1.926,3.767A13.059,13.059,0,0,1,6.4,12.734l.265,3.884a3.355,3.355,0,1,0,6.7-.457l-.265-3.884A19.761,19.761,0,0,0,6.338-1.29,19.868,19.868,0,0,0-2.986-5.84" transform="translate(2.986 5.84)" fill="none" stroke="#c87e2b" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="22.926" stroke-width="2" />
-                                    </g>
-                                    <g id="Group_3271" data-name="Group 3271" transform="translate(170.725 1290.709)">
-                                        <path id="Path_10615" data-name="Path 10615" d="M5.758,0A46.854,46.854,0,0,1,3.191,15.443L-1.1,28.906c-.642,2.007-1.818,4.3-4.687,4.3a2.87,2.87,0,0,1-3.14-2.88" transform="translate(8.928)" fill="none" stroke="#c87e2b" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="22.926" stroke-width="2" />
-                                    </g>
-                                    <g id="Group_3272" data-name="Group 3272" transform="translate(156.674 1290.709)">
-                                        <path id="Path_10616" data-name="Path 10616" d="M7.878,0h8.011m-28.1,0H-4.2" transform="translate(12.214)" fill="none" stroke="#c87e2b" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="22.926" stroke-width="2" />
-                                    </g>
-                                    <g id="Group_3273" data-name="Group 3273" transform="translate(141.198 1290.252)">
-                                        <path id="Path_10617" data-name="Path 10617" d="M.913,0H-1.416" transform="translate(1.416)" fill="none" stroke="#c87e2b" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="22.926" stroke-width="2" />
-                                    </g>
-                                    <g id="Group_3274" data-name="Group 3274" transform="translate(197.926 1291.166)">
-                                        <path id="Path_10618" data-name="Path 10618" d="M0,0H2.328" fill="none" stroke="#c87e2b" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="22.926" stroke-width="2" />
-                                    </g>
-                                    <g id="Group_3275" data-name="Group 3275" transform="translate(142.323 1282.626)">
-                                        <path id="Path_10619" data-name="Path 10619" d="M.882.236l-2.249-.6" transform="translate(1.367 0.366)" fill="none" stroke="#c87e2b" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="22.926" stroke-width="2" />
-                                    </g>
-                                    <g id="Group_3276" data-name="Group 3276" transform="translate(196.88 1298.19)">
-                                        <path id="Path_10620" data-name="Path 10620" d="M0,0,2.249.6" fill="none" stroke="#c87e2b" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="22.926" stroke-width="2" />
-                                    </g>
-                                    <g id="Group_3277" data-name="Group 3277" transform="translate(142.086 1297.307)">
-                                        <path id="Path_10621" data-name="Path 10621" d="M.882,0-1.367.6" transform="translate(1.367)" fill="none" stroke="#c87e2b" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="22.926" stroke-width="2" />
-                                    </g>
-                                    <g id="Group_3278" data-name="Group 3278" transform="translate(197.116 1283.509)">
-                                        <path id="Path_10622" data-name="Path 10622" d="M0,.236l2.249-.6" transform="translate(0 0.366)" fill="none" stroke="#c87e2b" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="22.926" stroke-width="2" />
-                                    </g>
-                                    <g id="Group_3279" data-name="Group 3279" transform="translate(152.581 1278.042)">
-                                        <path id="Path_10623" data-name="Path 10623" d="M1.991,1.155-3.087-1.79" transform="translate(3.087 1.79)" fill="none" stroke="#c87e2b" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="22.926" stroke-width="2" />
-                                    </g>
-                                    <g id="Group_3280" data-name="Group 3280" transform="translate(160.38 1310.247)">
-                                        <path id="Path_10624" data-name="Path 10624" d="M0,0H20.691" fill="none" stroke="#c87e2b" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="22.926" stroke-width="2" />
-                                    </g>
-                                    <g id="Group_3281" data-name="Group 3281" transform="translate(183.839 1278.069)">
-                                        <path id="Path_10625" data-name="Path 10625" d="M0,1.133l4.986-2.89" transform="translate(0 1.757)" fill="none" stroke="#c87e2b" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="22.926" stroke-width="2" />
-                                    </g>
-                                    <g id="Group_3282" data-name="Group 3282" transform="translate(170.726 1290.709)">
-                                        <path id="Path_10626" data-name="Path 10626" d="M0,0H0" fill="none" stroke="#c87e2b" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="2.613" stroke-width="2" />
-                                    </g>
-                                </g>
-                            </svg>
+                        <a href="#" className="relative flex justify-center items-center flex-col sm:w-60 w-full p-6 bg-white border border-gray-200 rounded-lg shadow  dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                           <img src="https://thumbs.dreamstime.com/b/neck-pain-line-icon-body-pain-concept-man-suffering-neck-ache-sign-white-background-man-pain-his-neck-neck-pain-198633767.jpg" alt="" className='w-36' />
 
                             <h5 className="mb-2 text-md  text-gray-900 dark:text-white">Neck Pain</h5>
                         </a>
@@ -377,28 +326,28 @@ const treat = () => {
 
                             <h5 className="mb-2 text-md  text-gray-900 dark:text-white">Indigestion</h5>
                         </a>
-                        <a href="#" className="relative flex justify-center items-center flex-col sm:w-60 w-full p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-                          <img src="https://png.pngtree.com/png-vector/20220120/ourmid/pngtree-girl-with-asthma-png-image_4346282.png" alt="" className='w-36'/>
+                        <a href="#" className="relative flex justify-center items-center flex-col sm:w-60 w-full p-6 bg-white border border-gray-200 rounded-lg shadow  dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Asthma_%28Lungs%29.png/640px-Asthma_%28Lungs%29.png" alt="" className='w-36'/>
 
                             <h5 className="mb-2 text-md  text-gray-900 dark:text-white">Asthma</h5>
                         </a>
-                        <a href="#" className="relative flex justify-center items-center flex-col sm:w-60 w-full p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                        <a href="#" className="relative flex justify-center items-center flex-col sm:w-60 w-full p-6 bg-white border border-gray-200 rounded-lg shadow  dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
                             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiDWVgTByXDPRwxQ74ZxgAUwOB2LAm1A5N7g&usqp=CAU" alt="" className='w-36' />
 
                             <h5 className="mb-2 text-md  text-gray-900 dark:text-white">Depression</h5>
                         </a>
-                        <a href="#" className="relative flex justify-center items-center flex-col sm:w-60 w-full p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-                            <img src="https://img.lovepik.com/element/40173/5051.png_300.png" alt="" className='w-36'/>
+                        <a href="#" className="relative flex justify-center items-center flex-col sm:w-60 w-full p-6 bg-white border border-gray-200 rounded-lg shadow  dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                            <img src="https://thumb.ac-illust.com/c9/c911e6e11a9e0f53e318535cb5fad5f4_t.jpeg" alt="" className='w-36'/>
 
                             <h5 className="mb-2 text-md  text-gray-900 dark:text-white">Constipation</h5>
                         </a>
-                        <a href="#" className="relative flex justify-center items-center flex-col sm:w-60 w-full p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                        <a href="#" className="relative flex justify-center items-center flex-col sm:w-60 w-full p-6 bg-white border border-gray-200 rounded-lg shadow  dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
                         <img src="https://img.freepik.com/premium-vector/sexually-transmitted-diseases-abstract-concept-vector-illustration-safer-sexual-behavior-sexual-infection-treatment-insecure-contact-venereal-disease-infection-symptoms-abstract-metaphor_335657-6113.jpg" alt="" className='w-36' />
 
                             <h5 className="mb-2 text-md  text-gray-900 dark:text-white">Venereal disease</h5>
                         </a>
-                        <a href="#" className="relative flex justify-center items-center flex-col sm:w-60 w-full p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-                           <img src="https://banner2.cleanpng.com/20190520/et/kisspng-psychological-stress-behavior-health-occupational-warmers-5ce361767eff74.6901235315584054945202.jpg" alt=""  className='w-36'/>
+                        <a href="#" className="relative flex justify-center items-center flex-col sm:w-60 w-full p-6 bg-white border border-gray-200 rounded-lg shadow  dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                           <img src="https://revistafusionempresarial.mx/wp-content/uploads/2019/04/yoani-gris-3-01.jpg" alt=""  className='w-36'/>
                             <h5 className="mb-2 text-md  text-gray-900 dark:text-white">Stress Relief</h5>
                         </a>
                     </div>

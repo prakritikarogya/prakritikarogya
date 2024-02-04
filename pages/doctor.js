@@ -14,9 +14,9 @@ const doctor = () => {
                         <div className="grid gap-4 mb-6 lg:mb-8 md:grid-cols-2">
                             <div className="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
                                 <a href="#">
-                                    <img className="w-64 px-4 rounded-lg sm:rounded-none sm:rounded-l-lg" src="/doctor.jpg" alt="Bonnie Avatar" />
+                                    <img className="sm:w-64 w-80 px-4 rounded-lg sm:rounded-none sm:rounded-l-lg" src="/doctor.jpg" alt="Bonnie Avatar" />
                                 </a>
-                                <div className="">
+                                <div className="p-5">
                                     <h3 className="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
                                         <a href="#">Dr. Bhuvnesh Agarwal</a>
                                     </h3>
@@ -28,7 +28,7 @@ const doctor = () => {
                             </div>
                             <div className="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
                                 <a href="#">
-                                <img className="w-72 p-4 rounded-lg sm:rounded-none sm:rounded-l-lg" src="https://dols.org.in/wp-content/uploads/2023/01/3774299.png" alt="Bonnie Avatar" />
+                                <img className="sm:w-72 w-80 p-4 rounded-lg sm:rounded-none sm:rounded-l-lg" src="https://dols.org.in/wp-content/uploads/2023/01/3774299.png" alt="Bonnie Avatar" />
                                 </a>
                                 <div className="p-5">
                                     <h3 className="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
@@ -42,7 +42,7 @@ const doctor = () => {
                             </div>
                             <div className="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
                                 <a href="#">
-                                    <img className="w-36 p-4 rounded-lg sm:rounded-none sm:rounded-l-lg" src="https://dols.org.in/wp-content/uploads/2023/01/3774299.png" alt="Bonnie Avatar" />
+                                    <img className="sm:w-36 w-80 p-4 rounded-lg sm:rounded-none sm:rounded-l-lg" src="https://dols.org.in/wp-content/uploads/2023/01/3774299.png" alt="Bonnie Avatar" />
                                 </a>
                                 <div className="p-5">
                                     <h3 className="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
