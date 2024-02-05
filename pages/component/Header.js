@@ -65,6 +65,8 @@ const Header = () => {
                   href="/"
                   className="block py-2 pl-3 pr-4 text-green-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent font-bold text-base"
                   data-collapse-toggle="navbar-default"
+                  aria-expanded={isNavOpen ? 'true' : 'false'}
+                  onClick={toggleNav}
                 >
                   Home
                 </Link>
@@ -74,6 +76,8 @@ const Header = () => {
                   href="/treat"
                   className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-green-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent font-bold text-base"
                   data-collapse-toggle="navbar-default"
+                  aria-expanded={isNavOpen ? 'true' : 'false'}
+                  onClick={toggleNav}
                 >
                   WHAT WE TREAT
                 </Link>
@@ -82,6 +86,9 @@ const Header = () => {
                 <Link
                   href="/about"
                   className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-green-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent font-bold text-base"
+                  data-collapse-toggle="navbar-default"
+                  aria-expanded={isNavOpen ? 'true' : 'false'}
+                  onClick={toggleNav}
                 >
                   About Us
                 </Link>
@@ -90,6 +97,9 @@ const Header = () => {
                 <Link
                   href="/doctor"
                   className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-green-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent font-bold text-base"
+                  data-collapse-toggle="navbar-default"
+                  aria-expanded={isNavOpen ? 'true' : 'false'}
+                  onClick={toggleNav}
                 >
                   Doctor
                 </Link>
@@ -98,6 +108,9 @@ const Header = () => {
                 <Link
                   href="/gallery"
                   className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-green-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent font-bold text-base"
+                  data-collapse-toggle="navbar-default"
+                  aria-expanded={isNavOpen ? 'true' : 'false'}
+                  onClick={toggleNav}
                 >
                   Gallery
                 </Link>
@@ -106,6 +119,9 @@ const Header = () => {
                 <Link
                   href="/contact"
                   className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-green-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent font-bold text-base"
+                  data-collapse-toggle="navbar-default"
+                  aria-expanded={isNavOpen ? 'true' : 'false'}
+                  onClick={toggleNav}
                 >
                   Contact Us
                 </Link>
@@ -113,6 +129,9 @@ const Header = () => {
               <li className="">
                 <a href="/donate"
                   className=" text-center absolute sm:right-0 sm:mr-4 mr-10 bg-green-500 bottom-3 sm:bottom-auto text-white p-2  w-40 rounded-sm"
+                  data-collapse-toggle="navbar-default"
+                  aria-expanded={isNavOpen ? 'true' : 'false'}
+                  onClick={toggleNav}
                 >
                   Donate Us
                 </a>
