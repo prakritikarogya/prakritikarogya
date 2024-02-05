@@ -1,33 +1,19 @@
 import React, { useState } from "react";
-import Image from "next/image";
 import { BiMobile } from "react-icons/bi";
 import { AiOutlineMail } from "react-icons/ai";
 import { BsWhatsapp } from "react-icons/bs"
 import Link from "next/link";
-import Modal from "./Modal";
 import ImageWithDefault from "./ImageWithDefault";
 const Header = () => {
-  const [isvisiable, setVisible] = useState(false)
-  const handleMe = () => {
-    setVisible(!isvisiable);
-  }
-  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [isNavOpen, setIsNavOpen] = useState(false);
 
-  const openModal = () => {
-    setIsModalOpen(true);
-  };
-
-  const closeModal = () => {
-    setIsModalOpen(false);
+  // Function to toggle the visibility of the navigation menu
+  const toggleNav = () => {
+    setIsNavOpen(!isNavOpen);
   };
   return (
     <div className="container mx-auto sticky top-0 z-[100] bg-white">
       <div className="md:ml-auto md:flex md:justify-end  md:px-6 bg-green-600 shadow-md md:py-4 py-2">
-        {/* <div className="flex"> */}
-        {/* <div className="sm:flex gap-5 text-white hidden">
-          <h2>Address :</h2>
-          <p>Rajgir, Nalanda Bihar-(803116)</p>
-        </div> */}
         <div className="flex">
           <div className="flex items-center px-6  text-white ">
             <BiMobile />
@@ -46,7 +32,7 @@ const Header = () => {
       <nav className="bg-white border-gray-200 px-2 sm:px-4 py-1 md:shadow-lg shadow-sm rounded dark:bg-gray-900 flex items-center">
         <div className="container flex flex-wrap items-center md:justify-start justify-between mx-auto md:ml-2">
           <Link href="/" className="flex items-center">
-          <ImageWithDefault url={'logo.png'} width={70} height={70} alt={"logo"} nameclass="rounded-full md:ml-2 ml-4 mr-4" />
+            <ImageWithDefault url={'logo.png'} width={70} height={70} alt={"logo"} nameclass="rounded-full md:ml-2 ml-4 mr-4" />
             <span className="md:hidden self-center text-xl font-semibold whitespace-nowrap dark:text-white text-green-600">Prakritik Arogyaashram</span>
           </Link>
           <button
@@ -54,7 +40,8 @@ const Header = () => {
             type="button"
             className="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
             aria-controls="navbar-default"
-            aria-expanded="false"
+            aria-expanded={isNavOpen ? 'true' : 'false'}
+            onClick={toggleNav}
           >
             <span className="sr-only">Open main menu</span>
             <svg
@@ -71,7 +58,7 @@ const Header = () => {
               ></path>
             </svg>
           </button>
-          <div className="hidden w-full md:block md:w-auto sm:h-auto h-80" id="navbar-default">
+          <div className={`w-full md:block md:w-auto sm:h-auto h-80 ${isNavOpen ? 'block' : 'hidden'}`} id="navbar-default">
             <ul className="flex flex-col p-1 pl-4 mt-2 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-14 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700 md:pl-10">
               <li>
                 <Link
