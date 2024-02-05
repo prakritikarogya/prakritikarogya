@@ -13,7 +13,7 @@ const treat = () => {
                 <div className=''>
                     <p>At Pratkritik Arogyaashram, we offer a unique blend of PREVENTIVE and CURATIVE treatments, integrating Naturopathy, Ayurveda, Yoga, Physiotherapy, Dietetics, Nutrition, Acupressure, and Acupuncture. Our comprehensive approach ensures optimal well-being and lasting health.</p>
                     <div className='flex gap-5 my-10 flex-wrap'>
-                        <a href="#" className="relative flex justify-center items-center flex-col sm:w-60 w-full p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                        <a href="#" className="relative flex justify-center items-center flex-col sm:w-60 w-full p-6 bg-white border border-gray-200 rounded-lg shadow  dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
                             <svg xmlns="http://www.w3.org/2000/svg" width="61.263" height="68.078" viewBox="0 0 61.263 68.078">
                                 <g id="Group_3323" data-name="Group 3323" transform="translate(-382.97 -1333.256)">
                                     <g id="Group_3235" data-name="Group 3235" transform="translate(432.728 1353.33)">
@@ -63,47 +63,16 @@ const treat = () => {
 
                             <h5 className="mb-2 text-md  text-gray-900 dark:text-white">DIABETES</h5>
                         </a>
-                        <a href="#" className="relative flex justify-center items-center flex-col sm:w-60 w-full p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="57.875" height="61.044" viewBox="0 0 57.875 61.044">
-                                <g id="Group_3349" data-name="Group 3349" transform="translate(24.622 9.206)">
-                                    <path id="Path_10635" data-name="Path 10635" d="M15.39,5.754A20.983,20.983,0,0,0,2.31,1.284,25.183,25.183,0,0,0-12.311,5.691a18.934,18.934,0,0,0-5.215,5.473A16.951,16.951,0,0,0-20,18.617c-.063.713-.062,1.339-.059,1.942.008,2.153.016,4.009-3.58,8.626a.98.98,0,0,0-.059.085c-.959,1.55-1.17,2.777-.647,3.744A3.327,3.327,0,0,0-21.7,34.486a2.167,2.167,0,0,0,0,.938,2.636,2.636,0,0,0,.8,1.342,2.171,2.171,0,0,0-.442,1.365,2.661,2.661,0,0,0,1.284,2.095c-.788,2.207-.712,3.847.224,5,1.349,1.656,4.16,1.965,9.328,1l.835,3.444a2.83,2.83,0,0,0,2.761,2.171H12.715a2.837,2.837,0,0,0,2.623-3.921v0c-3.531-8.541-1.18-11.818,1.8-15.965,2.173-3.024,4.635-6.456,4.794-12.375a.8.8,0,0,0,0-.088C21.559,13.725,19.3,8.979,15.39,5.754m.192,25.081C12.524,35.1,9.636,39.119,13.57,48.642a.889.889,0,0,1-.086.878.88.88,0,0,1-.77.411H-6.912a.914.914,0,0,1-.9-.712l-1.051-4.332a.955.955,0,0,0-.926-.73.96.96,0,0,0-.192.019c-4.688.952-7.5.9-8.371-.163-.687-.845-.172-2.576.384-3.879a.956.956,0,0,0-.007-.762.96.96,0,0,0-.562-.515c-.606-.208-.887-.582-.894-.782,0-.163.229-.364.6-.514a.958.958,0,0,0,.593-.933.956.956,0,0,0-.686-.869,1.426,1.426,0,0,1-.9-.743c-.049-.226.278-.536.419-.657a.957.957,0,0,0,.278-1.043.955.955,0,0,0-.873-.637l-.1,0c-.624-.018-2.282-.063-2.556-.572-.12-.224-.033-.811.566-1.794,3.968-5.106,3.959-7.368,3.949-9.763,0-.559,0-1.141.052-1.763C-17.166,8.493-6.9,3.07,2.286,3.19c8.065.107,16.953,4.466,17.733,16.373-.156,5.309-2.33,8.34-4.436,11.273M12.275,11.3A2.009,2.009,0,0,0,9.428,9.655l-3.51,1.63L3.688,8.114a2.01,2.01,0,0,0-3.284,0l-2.226,3.167-3.512-1.63a1.993,1.993,0,0,0-1.849.085A1.969,1.969,0,0,0-8.176,11.3L-8.6,15.95a9.661,9.661,0,0,0,5.345,8.863L.677,26.635a1.971,1.971,0,0,0,1.373.115,1.984,1.984,0,0,0,.525.072,2.041,2.041,0,0,0,.845-.187l4.237-1.966a9.646,9.646,0,0,0,5.005-9.06ZM1.961,9.221a.089.089,0,0,1,.088-.047.075.075,0,0,1,.08.041l2.493,3.543a7.712,7.712,0,0,1,.2,8.15L2.13,24.729a.079.079,0,0,1-.081.041.084.084,0,0,1-.081-.039L-.521,21.186a7.722,7.722,0,0,1-.2-8.151Zm-8.655,6.9.419-4.657c0-.041.013-.055.044-.072a.082.082,0,0,1,.094-.008l3.289,1.526a9.86,9.86,0,0,0,.765,9.375l1,1.43-1.37-.635a7.723,7.723,0,0,1-4.246-6.959M6.854,22.936l-1.677.778,1.2-1.708a9.641,9.641,0,0,0,.533-9.076l3.323-1.544a.084.084,0,0,1,.1.007c.037.02.042.033.047.075l.384,4.313a7.712,7.712,0,0,1-3.905,7.155M-1.7-3.79a3.673,3.673,0,0,1,2.8,2.8.955.955,0,0,0,.933.751h0a.955.955,0,0,0,.933-.749,3.681,3.681,0,0,1,2.8-2.8.955.955,0,0,0,.751-.933.955.955,0,0,0-.752-.933,3.674,3.674,0,0,1-2.8-2.8.954.954,0,0,0-.933-.752h0a.955.955,0,0,0-.933.752,3.665,3.665,0,0,1-2.8,2.8.955.955,0,0,0-.752.933A.955.955,0,0,0-1.7-3.79M2.036-5.966A5.668,5.668,0,0,0,3.282-4.719,5.591,5.591,0,0,0,2.036-3.474,5.55,5.55,0,0,0,.791-4.719,5.626,5.626,0,0,0,2.036-5.966M32.5,16.109a3.663,3.663,0,0,1-2.8-2.8.955.955,0,0,0-.933-.752h0a.954.954,0,0,0-.931.751,3.674,3.674,0,0,1-2.8,2.8.956.956,0,0,0,0,1.867,3.678,3.678,0,0,1,2.8,2.8.955.955,0,0,0,1.867,0,3.674,3.674,0,0,1,2.8-2.8.955.955,0,0,0,0-1.867m-3.734,2.179a5.6,5.6,0,0,0-1.246-1.246A5.626,5.626,0,0,0,28.763,15.8a5.558,5.558,0,0,0,1.246,1.245,5.739,5.739,0,0,0-1.246,1.246" transform="translate(0 0)" fill="#c87e2b" fill-rule="evenodd" />
-                                </g>
-                            </svg>
+                        <a href="#" className="relative flex justify-center items-center flex-col sm:w-60 w-full p-6 bg-white border border-gray-200 rounded-lg shadow  dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                            <img src="https://png.pngtree.com/png-clipart/20230915/original/pngtree-germs-design-bacteria-sign-vector-png-image_12192730.png" alt="" className='w-36' />
                             <h5 className="mb-2 text-md  text-gray-900 dark:text-white">Cancer</h5>
                         </a>
-                        <a href="#" className="relative flex justify-center items-center flex-col sm:w-60 w-full p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="52.955" height="60.831" viewBox="0 0 52.955 60.831">
-                                <g id="Group_3348" data-name="Group 3348" transform="translate(-143.847 -1397.659)">
-                                    <g id="Group_3283" data-name="Group 3283" transform="translate(143.847 1397.659)">
-                                        <path id="Path_10627" data-name="Path 10627" d="M22.018,14.574C21.583,13.26,17.675,1.668,14.833-.6a36.307,36.307,0,0,0-13.3-5.8c.241-1.345.92-6.01.92-7.209,0-3.3-1.375-5.467-3.682-5.818-5.8-2.129-8.752-.668-11.248,1.79-2.266,2.232-2.288.627-3.278,1.3-1.4.956.623,5.486,2.444,7.111a8.191,8.191,0,0,0,.9,4.491C-16.281-3.436-19.6-1.692-21.177-.084c-2.9,2.975-8.341,11.135-8.571,11.482-.493.74.146,1.286.764,1.963a15.192,15.192,0,0,0-1.908,7.406c0,4.948,10.133,9.754,13.2,13.717a13.573,13.573,0,0,0,1.509,1.723V39.4a.981.981,0,0,0,.981.981.981.981,0,0,0,.981-.981V37.309a3.937,3.937,0,0,0,.98.13c1.466,0,3.922-.635,3.922-4.9,0-2.439-7.85-9.725-12.435-12.22l.288-.615c1.034.435,1.435-.832,4.2-2.692a24.8,24.8,0,0,1,1.086,5.719.979.979,0,0,0,.981.98.979.979,0,0,0,.981-.98A30.581,30.581,0,0,0-15.78,15.1c-.007-.027-.017-.053-.026-.08a46.013,46.013,0,0,0-2.451-6.474.981.981,0,0,0-1.324-.411.981.981,0,0,0-.411,1.326,40.78,40.78,0,0,1,2.119,5.527L-21.146,17.6a37.459,37.459,0,0,1-6.55-5.741c1.345-1.99,5.592-8.189,7.92-10.569C-17.1-1.439-8.342-4.732-1.47-4.732c5.584,0,13.051,4.058,15.082,5.671,1.714,1.367,4.678,8.773,6.317,13.577a22.522,22.522,0,0,1-6.89,2.235c.18-2.7.3-5.691.2-8.764a.982.982,0,0,0-1.963.06,113.036,113.036,0,0,1-.654,14.077c-.587,6.32-.188,2.639-.325,17.278a.981.981,0,1,0,1.961,0V31.66c7.457-5.943,7.846-6.654,7.846-12.854a.981.981,0,0,0-1.963,0c0,5.131-.014,5.63-5.883,10.343v-2.5c0-1.449.327-4.16.629-7.874C15.07,18.357,22.714,16.663,22.018,14.574ZM-23.12,18.618c-.1.548-1.73,2.43-.32,3.047,4.515,1.98,11.922,9.466,12.164,10.873,0,2.943-1.326,2.943-1.963,2.943-1.845,0-2.691-2.362-4.54-4.088-1.752-1.636-11.152-7.426-11.152-10.624a13.8,13.8,0,0,1,1.367-5.938,37.991,37.991,0,0,0,4.445,3.789m9-33.047c3.631-.315,3.677-6.392,12.294-3.117.329.128,2.317.027,2.317,3.946,0,2.761-.495,3.115-.517,3.127-2.269,1.4-6.108,1.106-7.563.93A2.965,2.965,0,0,0-10.3-11.6a3.791,3.791,0,0,0-1.929.709,9,9,0,0,1-1.893-3.542m3.638,9.107a6.166,6.166,0,0,1-.867-3.78C-9.013-10.816-9.894-7.93-8.5-7.688a17.217,17.217,0,0,0,8.35-.548C-.232-7.7-.319-7.151-.41-6.649A32.03,32.03,0,0,0-10.479-5.323" transform="translate(30.892 20.448)" fill="#c87e2b" fill-rule="evenodd" />
-                                    </g>
-                                    <g id="Group_3284" data-name="Group 3284" transform="translate(186.003 1407.467)">
-                                        <path id="Path_10628" data-name="Path 10628" d="M.754,1.869c1.016-1.9,3.006-3.425,1.69-4.3S.523-.935-.878.779A.981.981,0,0,0,.754,1.869" transform="translate(1.058 2.622)" fill="#c87e2b" fill-rule="evenodd" />
-                                    </g>
-                                    <g id="Group_3285" data-name="Group 3285" transform="translate(150.712 1407.49)">
-                                        <path id="Path_10629" data-name="Path 10629" d="M.885,1.859A.981.981,0,0,0,2.517.77L.556-2.172A.98.98,0,0,0-.8-2.443a.98.98,0,0,0-.272,1.36Z" transform="translate(1.241 2.609)" fill="#c87e2b" fill-rule="evenodd" />
-                                    </g>
-                                    <g id="Group_3286" data-name="Group 3286" transform="translate(190.908 1410.414)">
-                                        <path id="Path_10630" data-name="Path 10630" d="M.7,1.929C2.472-.173,4.791-1.253,3.645-2.4S1.41-1.224-.686.542A.982.982,0,0,0,.7,1.929" transform="translate(0.986 2.706)" fill="#c87e2b" fill-rule="evenodd" />
-                                    </g>
-                                    <g id="Group_3287" data-name="Group 3287" transform="translate(144.827 1411.414)">
-                                        <path id="Path_10631" data-name="Path 10631" d="M1.344,1.921A.981.981,0,0,0,2.732.534L-.211-2.407a.98.98,0,0,0-1.387,0,.978.978,0,0,0,0,1.386Z" transform="translate(1.886 2.695)" fill="#c87e2b" fill-rule="evenodd" />
-                                    </g>
-                                    <g id="Group_3288" data-name="Group 3288" transform="translate(164.443 1437.893)">
-                                        <path id="Path_10632" data-name="Path 10632" d="M1.921.12A.98.98,0,0,0,.534.12L-2.407,3.062a.978.978,0,0,0,0,1.386.97.97,0,0,0,.692.288.979.979,0,0,0,.694-.288L1.921,1.507a.98.98,0,0,0,0-1.387" transform="translate(2.695 0.168)" fill="#c87e2b" fill-rule="evenodd" />
-                                    </g>
-                                    <g id="Group_3289" data-name="Group 3289" transform="translate(168.365 1443.777)">
-                                        <path id="Path_10633" data-name="Path 10633" d="M1.858.043-2.064,2A.979.979,0,0,0-2.5,3.32a.977.977,0,0,0,.877.541.977.977,0,0,0,.438-.1L2.737,1.8A.981.981,0,1,0,1.858.043" transform="translate(2.607 0.061)" fill="#c87e2b" fill-rule="evenodd" />
-                                    </g>
-                                    <g id="Group_3290" data-name="Group 3290" transform="translate(168.365 1451.624)">
-                                        <path id="Path_10634" data-name="Path 10634" d="M2.139.421l-3.922-.98A.974.974,0,0,0-2.971.155a.978.978,0,0,0,.714,1.189l3.922.98a.883.883,0,0,0,.238.031A.981.981,0,0,0,2.139.421" transform="translate(3.002 0.59)" fill="#c87e2b" fill-rule="evenodd" />
-                                    </g>
-                                </g>
-                            </svg>
+                        <a href="#" className="relative flex justify-center items-center flex-col sm:w-60 w-full p-6 bg-white border border-gray-200 rounded-lg shadow  dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjmXwl_nLE_4rc6-Vz8cndZiYWrP6Bz_LvEXlg3kPzZjKrilX-MlBVMl3lfbAmFeyWVlI&usqp=CAU" alt="" className='w-36' />
 
                             <h5 className="mb-2 text-md  text-gray-900 dark:text-white">Sinus</h5>
                         </a>
-                        <a href="#" className="relative flex justify-center items-center flex-col sm:w-60 w-full p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                        <a href="#" className="relative flex justify-center items-center flex-col sm:w-60 w-full p-6 bg-white border border-gray-200 rounded-lg shadow  dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
                             <svg xmlns="http://www.w3.org/2000/svg" width="52.107" height="60.8" viewBox="0 0 52.107 60.8">
                                 <g id="Group_3351" data-name="Group 3351" transform="translate(-142.985 -1470.729)">
                                     <g id="Group_3292" data-name="Group 3292" transform="translate(149.492 1470.729)">
@@ -171,54 +140,12 @@ const treat = () => {
 
                             <h5 className="mb-2 text-md  text-gray-900 dark:text-white">Sciatica</h5>
                         </a>
-                        <a href="#" className="relative flex justify-center items-center flex-col sm:w-60 w-full p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="43.508" height="68.122" viewBox="0 0 43.508 68.122">
-                                <g id="Group_3339" data-name="Group 3339" transform="translate(-836.28 -1323.447)">
-                                    <g id="Group_3326" data-name="Group 3326" transform="translate(852.023 1341.556)">
-                                        <path id="Path_10596" data-name="Path 10596" d="M0,.024A7.289,7.289,0,0,1,1.119-.062,7.152,7.152,0,0,1,3.727.426" transform="translate(0 0.062)" fill="none" stroke="#c87e2b" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
-                                    </g>
-                                    <g id="Group_3327" data-name="Group 3327" transform="translate(853.76 1350.972)">
-                                        <path id="Path_10597" data-name="Path 10597" d="M1.176.828A7.158,7.158,0,0,1,.223-.259,4.6,4.6,0,0,0-2.639-2.091l-.459-.09" transform="translate(3.098 2.181)" fill="none" stroke="#c87e2b" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
-                                    </g>
-                                    <g id="Group_3328" data-name="Group 3328" transform="translate(860.318 1372.97)">
-                                        <path id="Path_10598" data-name="Path 10598" d="M1.025.111A7.289,7.289,0,0,1-.093.2,7.153,7.153,0,0,1-2.7-.292" transform="translate(2.702 0.292)" fill="none" stroke="#c87e2b" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
-                                    </g>
-                                    <g id="Group_3329" data-name="Group 3329" transform="translate(858.035 1361.034)">
-                                        <path id="Path_10599" data-name="Path 10599" d="M0,0A7.158,7.158,0,0,1,.953,1.087a4.6,4.6,0,0,0,2.86,1.832l.461.09" fill="none" stroke="#c87e2b" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
-                                    </g>
-                                    <g id="Group_3330" data-name="Group 3330" transform="translate(837.615 1349.6)">
-                                        <path id="Path_10600" data-name="Path 10600" d="M1.177.564-3.1-1.487" transform="translate(3.1 1.487)" fill="none" stroke="#c87e2b" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
-                                    </g>
-                                    <g id="Group_3331" data-name="Group 3331" transform="translate(837.615 1363.364)">
-                                        <path id="Path_10601" data-name="Path 10601" d="M0,.564l4.277-2.05" transform="translate(0 1.486)" fill="none" stroke="#c87e2b" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
-                                    </g>
-                                    <g id="Group_3332" data-name="Group 3332" transform="translate(837.321 1357.727)">
-                                        <path id="Path_10602" data-name="Path 10602" d="M1.257,0h-4.57" transform="translate(3.313)" fill="none" stroke="#c87e2b" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
-                                    </g>
-                                    <g id="Group_3333" data-name="Group 3333" transform="translate(874.176 1349.6)">
-                                        <path id="Path_10603" data-name="Path 10603" d="M0,.564,4.278-1.487" transform="translate(0 1.487)" fill="none" stroke="#c87e2b" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
-                                    </g>
-                                    <g id="Group_3334" data-name="Group 3334" transform="translate(874.175 1363.364)">
-                                        <path id="Path_10604" data-name="Path 10604" d="M1.177.564-3.1-1.486" transform="translate(3.101 1.486)" fill="none" stroke="#c87e2b" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
-                                    </g>
-                                    <g id="Group_3335" data-name="Group 3335" transform="translate(874.176 1357.727)">
-                                        <path id="Path_10605" data-name="Path 10605" d="M0,0H4.57" fill="none" stroke="#c87e2b" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
-                                    </g>
-                                    <g id="Group_3336" data-name="Group 3336" transform="translate(845.965 1359.107)">
-                                        <path id="Path_10606" data-name="Path 10606" d="M4.967,8.656V-8.536a7.18,7.18,0,0,0,6.082-7.208A7.2,7.2,0,0,0,4.228-22.8a7.146,7.146,0,0,0-5.246,1.92A7.148,7.148,0,0,0-6.265-22.8a7.2,7.2,0,0,0-6.822,7.054,7.166,7.166,0,0,0,2.707,5.731A8.771,8.771,0,0,1-7-3.17v3.2" transform="translate(13.088 22.806)" fill="none" stroke="#c87e2b" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
-                                    </g>
-                                    <g id="Group_3337" data-name="Group 3337" transform="translate(845.965 1324.447)">
-                                        <path id="Path_10608" data-name="Path 10608" d="M1.674,0V17.19A7.177,7.177,0,1,0,7.659,29.533a7.176,7.176,0,0,0,10.973-9.061" transform="translate(4.41)" fill="none" stroke="#c87e2b" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
-                                    </g>
-                                    <g id="Group_3338" data-name="Group 3338" transform="translate(864.02 1324.447)">
-                                        <path id="Path_10609" data-name="Path 10609" d="M.624,4.849a8.664,8.664,0,0,1-2.268-5.8V-12.777" transform="translate(1.644 12.777)" fill="none" stroke="#c87e2b" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
-                                    </g>
-                                </g>
-                            </svg>
+                        <a href="#" className="relative flex justify-center items-center flex-col sm:w-60 w-full p-6 bg-white border border-gray-200 rounded-lg shadow  dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                          <img src="https://thumbs.dreamstime.com/b/businessman-back-pain-vector-illustration-monochrome-cartoon-character-suffering-37822843.jpg" alt=""  className='w-36'/>
 
                             <h5 className="mb-2 text-md  text-gray-900 dark:text-white">Back Pain</h5>
                         </a>
-                        <a href="#" className="relative flex justify-center items-center flex-col sm:w-60 w-full p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                        <a href="#" className="relative flex justify-center items-center flex-col sm:w-60 w-full p-6 bg-white border border-gray-200 rounded-lg shadow  dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
                             <svg xmlns="http://www.w3.org/2000/svg" width="59.806" height="59.808" viewBox="0 0 59.806 59.808">
                                 <g id="Group_3341" data-name="Group 3341" transform="translate(24.329 10.615)">
                                     <path id="Path_10593" data-name="Path 10593" d="M16.228,6.986A2.435,2.435,0,0,1,18.66,9.418a.869.869,0,1,0,1.738,0,4.175,4.175,0,0,0-4.17-4.171.87.87,0,0,0,0,1.739M-2.589,28.643a.869.869,0,0,0-.869-.87A2.434,2.434,0,0,1-5.89,25.34a.867.867,0,0,0-.869-.867.867.867,0,0,0-.869.867,4.176,4.176,0,0,0,4.17,4.171.869.869,0,0,0,.869-.869M16.6,20.888c-2.518,3.5-8.022,7.165-10.861,8.251a.475.475,0,0,1-.336,0A28.475,28.475,0,0,1-5.45,20.888a7.364,7.364,0,0,1,.74-9.513A6.548,6.548,0,0,1-.059,9.406a6.086,6.086,0,0,1,4.136,1.6,2.23,2.23,0,0,0,2.995,0,6.324,6.324,0,0,1,8.787.367,7.364,7.364,0,0,1,.74,9.513m3.1-5.032a9.11,9.11,0,0,0-2.608-5.7A8.056,8.056,0,0,0,5.9,9.729a.482.482,0,0,1-.644,0,8.055,8.055,0,0,0-11.2.424,9.108,9.108,0,0,0-2.606,5.7A9.152,9.152,0,0,0-6.859,21.9,30.041,30.041,0,0,0,4.8,30.769a2.2,2.2,0,0,0,1.56-.007c2.976-1.14,8.838-4.95,11.649-8.86A9.153,9.153,0,0,0,19.7,15.856m10.606,13.5V27.438a1.682,1.682,0,0,0-1.679-1.681H28.12V1.015a11.393,11.393,0,0,0-11.378-11.38m-.008,0a11.3,11.3,0,0,0-8.04,3.333A11.3,11.3,0,0,0,5.359,1.015V5.978a.869.869,0,0,0,1.738,0V1.015A9.58,9.58,0,0,1,9.921-5.8a9.581,9.581,0,0,1,6.82-2.824,9.654,9.654,0,0,1,9.642,9.642V25.757h-.509a1.681,1.681,0,0,0-1.679,1.681V29.36a9.8,9.8,0,0,0-4.669,6.85.868.868,0,1,0,1.7.343,8.019,8.019,0,0,1,3.87-5.7,1.506,1.506,0,0,0,.834-1.358v-2h2.636v2a1.506,1.506,0,0,0,.834,1.358c2.446,1.227,4.089,4.408,4.089,7.919,0,4.652-2.8,8.438-6.242,8.438-3.013,0-5.594-2.909-6.138-6.918a.868.868,0,1,0-1.721.233c.661,4.881,3.967,8.423,7.859,8.423,4.4,0,7.978-4.567,7.978-10.176,0-4.16-1.927-7.832-4.921-9.408M16.228,3.51a5.914,5.914,0,0,1,5.907,5.907.869.869,0,1,0,1.738,0,7.654,7.654,0,0,0-7.645-7.645.869.869,0,1,0,0,1.738M-15.446-2.6a.87.87,0,0,1,.867.87.813.813,0,0,1-.867.869.869.869,0,0,1-.869-.869.869.869,0,0,1,.869-.87m0,3.477A2.6,2.6,0,0,0-14.325.618l.537.539a.873.873,0,0,0,1.23,0,.871.871,0,0,0,0-1.229L-13.1-.611a2.576,2.576,0,0,0,.254-1.122,2.609,2.609,0,0,0-2.6-2.608,2.609,2.609,0,0,0-1.125.254l-1.746-1.746a.871.871,0,0,0-1.229,0,.868.868,0,0,0,0,1.229L-17.8-2.856a2.572,2.572,0,0,0-.254,1.123A2.609,2.609,0,0,0-15.446.874M-9.365,25.34a.868.868,0,0,0-.869-.869.869.869,0,0,0-.869.869,7.654,7.654,0,0,0,7.645,7.647.869.869,0,0,0,.869-.87.868.868,0,0,0-.869-.867A5.914,5.914,0,0,1-9.365,25.34M-17,9.316a.058.058,0,0,1-.057-.059V6.744a8.535,8.535,0,0,0,1.614.154,8.531,8.531,0,0,0,1.612-.154V9.257a.059.059,0,0,1-.059.059ZM5.575,32.9a.868.868,0,0,0-.869.869v3.793a9.653,9.653,0,0,1-9.642,9.644,9.579,9.579,0,0,1-6.818-2.826,9.577,9.577,0,0,1-2.824-6.818V11.053h.685a1.8,1.8,0,0,0,1.8-1.8V6.221a8.643,8.643,0,0,0,5.28-7.953A8.57,8.57,0,0,0-8.5-6.855a.871.871,0,0,0-1.217-.182A.87.87,0,0,0-9.9-5.822,6.834,6.834,0,0,1-8.553-1.732a6.9,6.9,0,0,1-6.893,6.893,6.9,6.9,0,0,1-6.9-6.893,6.9,6.9,0,0,1,6.9-6.9,6.866,6.866,0,0,1,2.747.569.867.867,0,0,0,1.142-.45.867.867,0,0,0-.449-1.143,8.591,8.591,0,0,0-3.44-.713,8.641,8.641,0,0,0-8.633,8.633A8.644,8.644,0,0,0-18.8,6.221V9.257A1.8,1.8,0,0,0-17,11.053h.688V37.562a11.3,11.3,0,0,0,3.333,8.047,11.306,11.306,0,0,0,8.047,3.335A11.394,11.394,0,0,0,6.444,37.562V33.769a.869.869,0,0,0-.869-.869" transform="translate(0)" fill="#c87e2b" stroke="#c87e2b" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="22.926" stroke-width="0.5" />
@@ -226,7 +153,7 @@ const treat = () => {
                             </svg>
                             <h5 className="mb-2 text-md  text-gray-900 dark:text-white">Acidity</h5>
                         </a>
-                        <a href="#" className="relative flex justify-center items-center flex-col sm:w-60 w-full p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                        <a href="#" className="relative flex justify-center items-center flex-col sm:w-60 w-full p-6 bg-white border border-gray-200 rounded-lg shadow  dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
                             <svg xmlns="http://www.w3.org/2000/svg" width="54.233" height="61.559" viewBox="0 0 54.233 61.559">
                                 <g id="Group_3354" data-name="Group 3354" transform="translate(-145.806 -1544.617)">
                                     <g id="Group_3312" data-name="Group 3312" transform="translate(145.806 1544.617)">
@@ -243,8 +170,8 @@ const treat = () => {
 
                             <h5 className="mb-2 text-md  text-gray-900 dark:text-white">Gas</h5>
                         </a>
-                        <a href="#" className="relative flex justify-center items-center flex-col sm:w-60 w-full p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8y2PV68ZxwQ7TYQdifUv1iOACyz7tV7cvxqoYpjmt8EN3owV7kPJFd-O1nKdurqFld8M&usqp=CAU" alt="" className='w-36' />
+                        <a href="#" className="relative flex justify-center items-center flex-col sm:w-60 w-full p-6 bg-white border border-gray-200 rounded-lg shadow  dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                            <img src="https://png.pngtree.com/png-clipart/20230923/original/pngtree-blood-donation-and-transfusion-concept-illustration-screening-isolated-procedure-vector-png-image_12566328.png" alt="" className='w-36' />
                             <h5 className="mb-2 text-md  text-gray-900 dark:text-white">Arthritis</h5>
                         </a>
                         <a href="#" className="relative flex justify-center items-center flex-col sm:w-60 w-full p-6 bg-white border border-gray-200 rounded-lg shadow  dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
@@ -257,7 +184,7 @@ const treat = () => {
 
                             <h5 className="mb-2 text-md  text-gray-900 dark:text-white">Slipped disc</h5>
                         </a>
-                        <a href="#" className="relative flex justify-center items-center flex-col sm:w-60 w-full p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                        <a href="#" className="relative flex justify-center items-center flex-col sm:w-60 w-full p-6 bg-white border border-gray-200 rounded-lg shadow  dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
                         <svg xmlns="http://www.w3.org/2000/svg" width="61.056" height="68.033" viewBox="0 0 61.056 68.033">
                                 <g id="Group_3325" data-name="Group 3325" transform="translate(-140.198 -1256.885)">
                                     <g id="Group_3267" data-name="Group 3267" transform="translate(165.356 1257.885)">
@@ -313,7 +240,7 @@ const treat = () => {
 
                             <h5 className="mb-2 text-md  text-gray-900 dark:text-white">Obesity</h5>
                         </a>
-                        <a href="#" className="relative flex justify-center items-center flex-col sm:w-60 w-full p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                        <a href="#" className="relative flex justify-center items-center flex-col sm:w-60 w-full p-6 bg-white border border-gray-200 rounded-lg shadow  dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
                            <img src="https://png.pngtree.com/png-vector/20221110/ourmid/pngtree-sick-man-suffer-from-indigestion-png-image_6442178.png" alt="" className='w-36'/>
 
                             <h5 className="mb-2 text-md  text-gray-900 dark:text-white">Indigestion</h5>
