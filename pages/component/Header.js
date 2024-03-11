@@ -34,6 +34,7 @@ const Header = () => {
           <Link href="/" className="flex items-center">
             <ImageWithDefault url={'logo.png'} width={70} height={70} alt={"logo"} nameclass="rounded-full md:ml-2 ml-4 mr-4" />
             <div className="flex flex-col items-center">
+            <span className="md:hidden self-center sm:text-xl  font-semibold whitespace-nowrap dark:text-white text-green-600">since 1964</span>
             <span className="md:hidden self-center sm:text-xl  font-semibold whitespace-nowrap dark:text-white text-green-600">Prakritik Arogyaashram</span>
             <span className="md:hidden self-center sm:text-xl  font-semibold whitespace-nowrap dark:text-white text-green-600">Nature Cure institute</span>
             </div>
