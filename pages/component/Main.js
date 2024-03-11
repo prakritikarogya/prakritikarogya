@@ -1,5 +1,4 @@
-import React, { useEffect } from "react";
-import Image from "next/image";
+import React from "react";
 const Main = () => {
   let sliderData = [
     {

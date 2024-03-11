@@ -1,12 +1,10 @@
 import React from 'react'
 import BreadcrumbComponent from './component/Breadcrumb'
 import Title from './component/Title'
-import Header from './component/Header'
 
 const contact = () => {
     return (
         <div>
-            {/* <Header /> */}
             <div className='md:mx-10 mx-2 my-5'>
                 <BreadcrumbComponent text={"Contact us"} />
                 <Title text={"Contact us"} />

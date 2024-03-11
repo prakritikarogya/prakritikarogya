@@ -1,7 +1,6 @@
 import React from 'react'
 import BreadcrumbComponent from './component/Breadcrumb'
 import Title from './component/Title'
-import Header from './component/Header'
 
 const doctor = () => {
     return (
