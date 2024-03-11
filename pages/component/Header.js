@@ -19,7 +19,7 @@ const Header = () => {
             <BiMobile />
             <Link href={'tel:7294949408'}>+91:7294949408</Link>
           </div>
-          <div className="flex items-center px-6  text-white">
+          <div className="flex items-center sm:px-6 px-4  text-white">
             <BsWhatsapp /> &nbsp;
             <Link target='_blank' className="" rel="noreferrer" href="https://wa.me/+917294949408"> Send Message </Link>
             {/* </div> */}
@@ -33,7 +33,7 @@ const Header = () => {
         <div className="container flex flex-wrap items-center md:justify-start justify-between mx-auto md:ml-2">
           <Link href="/" className="flex items-center">
             <ImageWithDefault url={'logo.png'} width={70} height={70} alt={"logo"} nameclass="rounded-full md:ml-2 ml-4 mr-4" />
-            <span className="md:hidden self-center text-xl font-semibold whitespace-nowrap dark:text-white text-green-600">Prakritik Arogyaashram</span>
+            <span className="md:hidden self-center sm:text-xl  font-semibold whitespace-nowrap dark:text-white text-green-600">Prakritik Arogyaashram</span>
           </Link>
           <button
             data-collapse-toggle="navbar-default"

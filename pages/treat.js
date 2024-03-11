@@ -68,7 +68,7 @@ const treat = () => {
                             <h5 className="mb-2 text-md  text-gray-900 dark:text-white">Cancer</h5>
                         </a>
                         <a href="#" className="relative flex justify-center items-center flex-col sm:w-60 w-full p-6 bg-white border border-gray-200 rounded-lg shadow  dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-                           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjmXwl_nLE_4rc6-Vz8cndZiYWrP6Bz_LvEXlg3kPzZjKrilX-MlBVMl3lfbAmFeyWVlI&usqp=CAU" alt="" className='w-36' />
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjmXwl_nLE_4rc6-Vz8cndZiYWrP6Bz_LvEXlg3kPzZjKrilX-MlBVMl3lfbAmFeyWVlI&usqp=CAU" alt="" className='w-36' />
 
                             <h5 className="mb-2 text-md  text-gray-900 dark:text-white">Sinus</h5>
                         </a>
@@ -141,51 +141,36 @@ const treat = () => {
                             <h5 className="mb-2 text-md  text-gray-900 dark:text-white">Sciatica</h5>
                         </a>
                         <a href="#" className="relative flex justify-center items-center flex-col sm:w-60 w-full p-6 bg-white border border-gray-200 rounded-lg shadow  dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-                          <img src="https://thumbs.dreamstime.com/b/businessman-back-pain-vector-illustration-monochrome-cartoon-character-suffering-37822843.jpg" alt=""  className='w-36'/>
+                            <img src="https://thumbs.dreamstime.com/b/businessman-back-pain-vector-illustration-monochrome-cartoon-character-suffering-37822843.jpg" alt="" className='w-36' />
 
                             <h5 className="mb-2 text-md  text-gray-900 dark:text-white">Back Pain</h5>
                         </a>
                         <a href="#" className="relative flex justify-center items-center flex-col sm:w-60 w-full p-6 bg-white border border-gray-200 rounded-lg shadow  dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="59.806" height="59.808" viewBox="0 0 59.806 59.808">
-                                <g id="Group_3341" data-name="Group 3341" transform="translate(24.329 10.615)">
-                                    <path id="Path_10593" data-name="Path 10593" d="M16.228,6.986A2.435,2.435,0,0,1,18.66,9.418a.869.869,0,1,0,1.738,0,4.175,4.175,0,0,0-4.17-4.171.87.87,0,0,0,0,1.739M-2.589,28.643a.869.869,0,0,0-.869-.87A2.434,2.434,0,0,1-5.89,25.34a.867.867,0,0,0-.869-.867.867.867,0,0,0-.869.867,4.176,4.176,0,0,0,4.17,4.171.869.869,0,0,0,.869-.869M16.6,20.888c-2.518,3.5-8.022,7.165-10.861,8.251a.475.475,0,0,1-.336,0A28.475,28.475,0,0,1-5.45,20.888a7.364,7.364,0,0,1,.74-9.513A6.548,6.548,0,0,1-.059,9.406a6.086,6.086,0,0,1,4.136,1.6,2.23,2.23,0,0,0,2.995,0,6.324,6.324,0,0,1,8.787.367,7.364,7.364,0,0,1,.74,9.513m3.1-5.032a9.11,9.11,0,0,0-2.608-5.7A8.056,8.056,0,0,0,5.9,9.729a.482.482,0,0,1-.644,0,8.055,8.055,0,0,0-11.2.424,9.108,9.108,0,0,0-2.606,5.7A9.152,9.152,0,0,0-6.859,21.9,30.041,30.041,0,0,0,4.8,30.769a2.2,2.2,0,0,0,1.56-.007c2.976-1.14,8.838-4.95,11.649-8.86A9.153,9.153,0,0,0,19.7,15.856m10.606,13.5V27.438a1.682,1.682,0,0,0-1.679-1.681H28.12V1.015a11.393,11.393,0,0,0-11.378-11.38m-.008,0a11.3,11.3,0,0,0-8.04,3.333A11.3,11.3,0,0,0,5.359,1.015V5.978a.869.869,0,0,0,1.738,0V1.015A9.58,9.58,0,0,1,9.921-5.8a9.581,9.581,0,0,1,6.82-2.824,9.654,9.654,0,0,1,9.642,9.642V25.757h-.509a1.681,1.681,0,0,0-1.679,1.681V29.36a9.8,9.8,0,0,0-4.669,6.85.868.868,0,1,0,1.7.343,8.019,8.019,0,0,1,3.87-5.7,1.506,1.506,0,0,0,.834-1.358v-2h2.636v2a1.506,1.506,0,0,0,.834,1.358c2.446,1.227,4.089,4.408,4.089,7.919,0,4.652-2.8,8.438-6.242,8.438-3.013,0-5.594-2.909-6.138-6.918a.868.868,0,1,0-1.721.233c.661,4.881,3.967,8.423,7.859,8.423,4.4,0,7.978-4.567,7.978-10.176,0-4.16-1.927-7.832-4.921-9.408M16.228,3.51a5.914,5.914,0,0,1,5.907,5.907.869.869,0,1,0,1.738,0,7.654,7.654,0,0,0-7.645-7.645.869.869,0,1,0,0,1.738M-15.446-2.6a.87.87,0,0,1,.867.87.813.813,0,0,1-.867.869.869.869,0,0,1-.869-.869.869.869,0,0,1,.869-.87m0,3.477A2.6,2.6,0,0,0-14.325.618l.537.539a.873.873,0,0,0,1.23,0,.871.871,0,0,0,0-1.229L-13.1-.611a2.576,2.576,0,0,0,.254-1.122,2.609,2.609,0,0,0-2.6-2.608,2.609,2.609,0,0,0-1.125.254l-1.746-1.746a.871.871,0,0,0-1.229,0,.868.868,0,0,0,0,1.229L-17.8-2.856a2.572,2.572,0,0,0-.254,1.123A2.609,2.609,0,0,0-15.446.874M-9.365,25.34a.868.868,0,0,0-.869-.869.869.869,0,0,0-.869.869,7.654,7.654,0,0,0,7.645,7.647.869.869,0,0,0,.869-.87.868.868,0,0,0-.869-.867A5.914,5.914,0,0,1-9.365,25.34M-17,9.316a.058.058,0,0,1-.057-.059V6.744a8.535,8.535,0,0,0,1.614.154,8.531,8.531,0,0,0,1.612-.154V9.257a.059.059,0,0,1-.059.059ZM5.575,32.9a.868.868,0,0,0-.869.869v3.793a9.653,9.653,0,0,1-9.642,9.644,9.579,9.579,0,0,1-6.818-2.826,9.577,9.577,0,0,1-2.824-6.818V11.053h.685a1.8,1.8,0,0,0,1.8-1.8V6.221a8.643,8.643,0,0,0,5.28-7.953A8.57,8.57,0,0,0-8.5-6.855a.871.871,0,0,0-1.217-.182A.87.87,0,0,0-9.9-5.822,6.834,6.834,0,0,1-8.553-1.732a6.9,6.9,0,0,1-6.893,6.893,6.9,6.9,0,0,1-6.9-6.893,6.9,6.9,0,0,1,6.9-6.9,6.866,6.866,0,0,1,2.747.569.867.867,0,0,0,1.142-.45.867.867,0,0,0-.449-1.143,8.591,8.591,0,0,0-3.44-.713,8.641,8.641,0,0,0-8.633,8.633A8.644,8.644,0,0,0-18.8,6.221V9.257A1.8,1.8,0,0,0-17,11.053h.688V37.562a11.3,11.3,0,0,0,3.333,8.047,11.306,11.306,0,0,0,8.047,3.335A11.394,11.394,0,0,0,6.444,37.562V33.769a.869.869,0,0,0-.869-.869" transform="translate(0)" fill="#c87e2b" stroke="#c87e2b" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="22.926" stroke-width="0.5" />
-                                </g>
-                            </svg>
+                            <img src="https://www.chennaigastrocare.in/images/gerd.jpg" alt="" className='w-36' />
+
                             <h5 className="mb-2 text-md  text-gray-900 dark:text-white">Acidity</h5>
                         </a>
                         <a href="#" className="relative flex justify-center items-center flex-col sm:w-60 w-full p-6 bg-white border border-gray-200 rounded-lg shadow  dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="54.233" height="61.559" viewBox="0 0 54.233 61.559">
-                                <g id="Group_3354" data-name="Group 3354" transform="translate(-145.806 -1544.617)">
-                                    <g id="Group_3312" data-name="Group 3312" transform="translate(145.806 1544.617)">
-                                        <path id="Path_10656" data-name="Path 10656" d="M26.128,4.832A8.031,8.031,0,0,1,18.406-3.1l-.022-1.78H-16.9l-.024,1.78a8.029,8.029,0,0,1-7.722,7.929l-1.732.066V19.4A36.84,36.84,0,0,0-8.642,51.132l9.386,5.55,9.384-5.55A36.84,36.84,0,0,0,27.86,19.4V4.9ZM24.259,19.4A33.222,33.222,0,0,1,8.3,48.031L.745,52.5l-7.553-4.465A33.224,33.224,0,0,1-22.77,19.4V8.236a11.633,11.633,0,0,0,9.295-9.51H14.962a11.635,11.635,0,0,0,9.3,9.51Z" transform="translate(26.373 4.877)" fill="#c87e2b" fill-rule="evenodd" />
-                                    </g>
-                                    <g id="Group_3313" data-name="Group 3313" transform="translate(165.31 1565.248)">
-                                        <path id="Path_10657" data-name="Path 10657" d="M4.685,0h-3.6V5.811H-4.729v3.6H1.082v5.809h3.6V9.414H10.5v-3.6H4.685Z" transform="translate(4.729)" fill="#c87e2b" fill-rule="evenodd" />
-                                    </g>
-                                    <g id="Group_3314" data-name="Group 3314" transform="translate(157.169 1557.104)">
-                                        <path id="Path_10658" data-name="Path 10658" d="M7.841,0A15.756,15.756,0,1,0,23.6,15.755,15.773,15.773,0,0,0,7.841,0m0,27.908A12.152,12.152,0,1,1,19.992,15.755,12.166,12.166,0,0,1,7.841,27.908" transform="translate(7.914)" fill="#c87e2b" fill-rule="evenodd" />
-                                    </g>
-                                </g>
-                            </svg>
+                            <img src="https://media.istockphoto.com/id/523015047/photo/asian-male-doctor-wear-mask-thumbs-up-with-blank-card.jpg?s=612x612&w=0&k=20&c=RdolujI6V1sysWj9Dx-7l-7PivsfQdaxLydNg9IGzFg=" alt="" className='w-36' />
 
                             <h5 className="mb-2 text-md  text-gray-900 dark:text-white">Gas</h5>
                         </a>
                         <a href="#" className="relative flex justify-center items-center flex-col sm:w-60 w-full p-6 bg-white border border-gray-200 rounded-lg shadow  dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-                            <img src="https://png.pngtree.com/png-clipart/20230923/original/pngtree-blood-donation-and-transfusion-concept-illustration-screening-isolated-procedure-vector-png-image_12566328.png" alt="" className='w-36' />
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoVCJzZF5dIdRGFwoGv9__lXF9EbVNjSjvP1mluVeb8gR-2eHluy-g_HmjmOEcGbEhxeU&usqp=CAU" alt="" className='w-36' />
                             <h5 className="mb-2 text-md  text-gray-900 dark:text-white">Arthritis</h5>
                         </a>
                         <a href="#" className="relative flex justify-center items-center flex-col sm:w-60 w-full p-6 bg-white border border-gray-200 rounded-lg shadow  dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-                           <img src="https://thumbs.dreamstime.com/b/neck-pain-line-icon-body-pain-concept-man-suffering-neck-ache-sign-white-background-man-pain-his-neck-neck-pain-198633767.jpg" alt="" className='w-36' />
+                            <img src="https://thumbs.dreamstime.com/b/neck-pain-line-icon-body-pain-concept-man-suffering-neck-ache-sign-white-background-man-pain-his-neck-neck-pain-198633767.jpg" alt="" className='w-36' />
 
                             <h5 className="mb-2 text-md  text-gray-900 dark:text-white">Neck Pain</h5>
                         </a>
                         <a href="#" className="relative flex justify-center items-center flex-col sm:w-60 w-full p-6 bg-white border border-gray-200 rounded-lg shadow  dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-                            <img src="https://inwfile.com/s-fv/hnw6y8.jpg" alt="" className='w-36'/>
+                            <img src="https://inwfile.com/s-fv/hnw6y8.jpg" alt="" className='w-36' />
 
                             <h5 className="mb-2 text-md  text-gray-900 dark:text-white">Slipped disc</h5>
                         </a>
                         <a href="#" className="relative flex justify-center items-center flex-col sm:w-60 w-full p-6 bg-white border border-gray-200 rounded-lg shadow  dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="61.056" height="68.033" viewBox="0 0 61.056 68.033">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="61.056" height="68.033" viewBox="0 0 61.056 68.033">
                                 <g id="Group_3325" data-name="Group 3325" transform="translate(-140.198 -1256.885)">
                                     <g id="Group_3267" data-name="Group 3267" transform="translate(165.356 1257.885)">
                                         <path id="Path_10611" data-name="Path 10611" d="M2.105,0h0A5.385,5.385,0,0,1,7.474,5.369V8.054a5.385,5.385,0,0,1-5.369,5.368A5.385,5.385,0,0,1-3.264,8.054V5.369A5.385,5.385,0,0,1,2.105,0Z" transform="translate(3.264)" fill="none" stroke="#c87e2b" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="22.926" stroke-width="2" />
@@ -241,12 +226,12 @@ const treat = () => {
                             <h5 className="mb-2 text-md  text-gray-900 dark:text-white">Obesity</h5>
                         </a>
                         <a href="#" className="relative flex justify-center items-center flex-col sm:w-60 w-full p-6 bg-white border border-gray-200 rounded-lg shadow  dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-                           <img src="https://png.pngtree.com/png-vector/20221110/ourmid/pngtree-sick-man-suffer-from-indigestion-png-image_6442178.png" alt="" className='w-36'/>
+                            <img src="https://png.pngtree.com/png-vector/20221110/ourmid/pngtree-sick-man-suffer-from-indigestion-png-image_6442178.png" alt="" className='w-36' />
 
                             <h5 className="mb-2 text-md  text-gray-900 dark:text-white">Indigestion</h5>
                         </a>
                         <a href="#" className="relative flex justify-center items-center flex-col sm:w-60 w-full p-6 bg-white border border-gray-200 rounded-lg shadow  dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-                          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Asthma_%28Lungs%29.png/640px-Asthma_%28Lungs%29.png" alt="" className='w-36'/>
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Asthma_%28Lungs%29.png/640px-Asthma_%28Lungs%29.png" alt="" className='w-36' />
 
                             <h5 className="mb-2 text-md  text-gray-900 dark:text-white">Asthma</h5>
                         </a>
@@ -256,17 +241,17 @@ const treat = () => {
                             <h5 className="mb-2 text-md  text-gray-900 dark:text-white">Depression</h5>
                         </a>
                         <a href="#" className="relative flex justify-center items-center flex-col sm:w-60 w-full p-6 bg-white border border-gray-200 rounded-lg shadow  dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-                            <img src="https://thumb.ac-illust.com/c9/c911e6e11a9e0f53e318535cb5fad5f4_t.jpeg" alt="" className='w-36'/>
+                            <img src="https://thumb.ac-illust.com/c9/c911e6e11a9e0f53e318535cb5fad5f4_t.jpeg" alt="" className='w-36' />
 
                             <h5 className="mb-2 text-md  text-gray-900 dark:text-white">Constipation</h5>
                         </a>
                         <a href="#" className="relative flex justify-center items-center flex-col sm:w-60 w-full p-6 bg-white border border-gray-200 rounded-lg shadow  dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-                        <img src="https://img.freepik.com/premium-vector/sexually-transmitted-diseases-abstract-concept-vector-illustration-safer-sexual-behavior-sexual-infection-treatment-insecure-contact-venereal-disease-infection-symptoms-abstract-metaphor_335657-6113.jpg" alt="" className='w-36' />
+                            <img src="https://img.freepik.com/premium-vector/sexually-transmitted-diseases-abstract-concept-vector-illustration-safer-sexual-behavior-sexual-infection-treatment-insecure-contact-venereal-disease-infection-symptoms-abstract-metaphor_335657-6113.jpg" alt="" className='w-36' />
 
                             <h5 className="mb-2 text-md  text-gray-900 dark:text-white">Venereal disease</h5>
                         </a>
                         <a href="#" className="relative flex justify-center items-center flex-col sm:w-60 w-full p-6 bg-white border border-gray-200 rounded-lg shadow  dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-                           <img src="https://revistafusionempresarial.mx/wp-content/uploads/2019/04/yoani-gris-3-01.jpg" alt=""  className='w-36'/>
+                            <img src="https://revistafusionempresarial.mx/wp-content/uploads/2019/04/yoani-gris-3-01.jpg" alt="" className='w-36' />
                             <h5 className="mb-2 text-md  text-gray-900 dark:text-white">Stress Relief</h5>
                         </a>
                     </div>
